@@ -14,4 +14,4 @@ class Solution(object):
         return multi
 
 
-print(Solution().permute([1, 1, 2]))
+print(Solution().permute([1, 2, 3]))
