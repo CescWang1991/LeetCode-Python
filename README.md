@@ -22,3 +22,11 @@
 #### 57. Insert Interval([python](51_60/InsertInterval.py), [description](https://leetcode.com/problems/spiral-matrix-ii/description/))
 #### 59. Spiral Matrix II([python](51_60/SpiralMatrixII.py), [description](https://leetcode.com/problems/spiral-matrix-ii/description/))
 #### 60. Permutation Sequence([python](51_60/PermutationSequence.py), [description](https://leetcode.com/problems/permutation-sequence/description/))
+
+### 61 to 70:
+
+#### 62. Unique Paths([python](61_70/UniquePaths.py), [description](https://leetcode.com/problems/unique-paths/))
+#### 63. Unique Paths II([python](61_70/UniquePathsWithObstacles.py), [description](https://leetcode.com/problems/unique-paths-ii/))
+#### 64. Minimal Path Sum([python](61_70/MinPathSum), [description](https://leetcode.com/problems/minimum-path-sum/))
+#### 67. Add Binary([python](61_70/AddBinary.py), [description](https://leetcode.com/problems/add-binary/)) 
+#### 70. Climbing  Stairs([python](61_70/ClimbingStairs.py), [description](https://leetcode.com/problems/climbing-stairs/))
