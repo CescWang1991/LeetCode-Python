@@ -30,3 +30,14 @@
 #### 64. Minimal Path Sum([python](61_70/MinPathSum), [description](https://leetcode.com/problems/minimum-path-sum/))
 #### 67. Add Binary([python](61_70/AddBinary.py), [description](https://leetcode.com/problems/add-binary/)) 
 #### 70. Climbing  Stairs([python](61_70/ClimbingStairs.py), [description](https://leetcode.com/problems/climbing-stairs/))
+
+### 71 to 80:
+
+#### 72. Min Distance([python](71_80/MinDistance.py), [description](https://leetcode.com/problems/edit-distance/))
+#### 73. Set Matrix Zeroes([python](71_80/SetZeros.py), [description](https://leetcode.com/problems/set-matrix-zeroes/))
+#### 74. Search Target([python](71_80/SearchMatrix.py), [description](https://leetcode.com/problems/search-a-2d-matrix/))
+#### 75. Sort Colors([python](71_80/SortColor.py), [description](https://leetcode.com/problems/sort-colors/))
+#### 76. Minimum Window Substring([python](71_80/MinWindow.py), [description](https://leetcode.com/problems/minimum-window-substring/))
+#### 77. Combinations([python](71_80/Combinations.py), [description](https://leetcode.com/problems/combinations/))
+#### 78. Subsets([python](71_80/Subsets.py), [description](https://leetcode.com/problems/subsets/))
+#### 80. Remove Duplicates from Sorted Arrays([python](71-80/RemoveDuplicates.py), [description](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/))
