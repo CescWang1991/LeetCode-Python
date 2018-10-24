@@ -40,4 +40,12 @@
 #### 76. Minimum Window Substring([python](71_80/MinWindow.py), [description](https://leetcode.com/problems/minimum-window-substring/))
 #### 77. Combinations([python](71_80/Combinations.py), [description](https://leetcode.com/problems/combinations/))
 #### 78. Subsets([python](71_80/Subsets.py), [description](https://leetcode.com/problems/subsets/))
-#### 80. Remove Duplicates from Sorted Arrays([python](71-80/RemoveDuplicates.py), [description](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/))
+#### 80. Remove Duplicates from Sorted Arrays([python](71_80/RemoveDuplicates.py), [description](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/))
+
+#### 91 to 100:
+
+#### 93. Restore Ip Addresses([python](91_100/RestoreIpAddress.py), [description](https://leetcode.com/problems/restore-ip-addresses/))
+#### 94. Binary Tree Inorder Traversal([python](91_100/BinaryTreeInorder.py), [description](https://leetcode.com/problems/binary-tree-inorder-traversal/))
+#### 95. Unique Binary Search Tree II([python](91_100/BinarySearchTree.py), [description](https://leetcode.com/problems/unique-binary-search-trees-ii/))
+#### 96. Unique Binary Search Trees([python](91_100/BinarySearchTree.py), [description](https://leetcode.com/problems/unique-binary-search-trees/))
+#### 99. Recover Binary Search Trees([python](91_100/RecoverBST.py), [description](https://leetcode.com/problems/recover-binary-search-tree/))
