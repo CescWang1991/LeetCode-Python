@@ -1,10 +1,9 @@
 class UnitTest:
 
     def test_solution(self):
-        dict = {}
-        dict["1"] = 1
-        dict["2"] = 2
-        item = dict.items()
+        str = "We are happy"
+        list = str.split(" ")
+        return "%20".join(list)
 
 
-UnitTest().test_solution()
+print(UnitTest().test_solution())

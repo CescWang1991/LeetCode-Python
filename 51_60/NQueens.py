@@ -16,7 +16,6 @@ class Solution:
         return result
 
     def search(self, n, cols, result):
-        print(cols)
         if len(cols) == n:
             result.append(self.drawBoard(cols))
             return
@@ -53,4 +52,4 @@ class Solution:
         return board
 
 
-print(Solution().solveNQueens(6))
+print(Solution().solveNQueens(4))

@@ -2,6 +2,16 @@
 
 ## Solutions for problemsets in Algorithm on LeetCode
 
+### 21 to 30:
+
+#### 24. Swap Pairs([python](Linked List/SwapPairs.py), [description](https://leetcode.com/problems/swap-nodes-in-pairs/))
+#### 25. Reverse Nodes in k-Group([python](Linked List/ReverseNode.py), [description](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+
+### 31 to 40:
+
+#### 33. Search in Rotated Sorted Array([python](Sorting/SearchInRotatedSortedArray.py), [description](https://leetcode.com/problems/search-in-rotated-sorted-array/))
+#### 35. Search Insert Position([python](Sorting/SearchInsertPosition.py), [description](https://leetcode.com/problems/search-insert-position/))
+
 ### 41 to 50:
 
 #### 41. First Missing Positive([python](41_50/FirstMissingPositive.py), [description](https://leetcode.com/problems/first-missing-positive/description/))
@@ -25,6 +35,7 @@
 
 ### 61 to 70:
 
+#### 61. Rotate List([python](61_70/RotateList.py), [description](https://leetcode.com/problems/rotate-list/))
 #### 62. Unique Paths([python](61_70/UniquePaths.py), [description](https://leetcode.com/problems/unique-paths/))
 #### 63. Unique Paths II([python](61_70/UniquePathsWithObstacles.py), [description](https://leetcode.com/problems/unique-paths-ii/))
 #### 64. Minimal Path Sum([python](61_70/MinPathSum), [description](https://leetcode.com/problems/minimum-path-sum/))
@@ -49,3 +60,10 @@
 #### 95. Unique Binary Search Tree II([python](91_100/BinarySearchTree.py), [description](https://leetcode.com/problems/unique-binary-search-trees-ii/))
 #### 96. Unique Binary Search Trees([python](91_100/BinarySearchTree.py), [description](https://leetcode.com/problems/unique-binary-search-trees/))
 #### 99. Recover Binary Search Trees([python](91_100/RecoverBST.py), [description](https://leetcode.com/problems/recover-binary-search-tree/))
+
+### 101 to 110:
+
+#### 103. Binary Tree Zigzag Level Order Traversal([python](101_110/ZigzagLevelOrder.py), [description](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/))
+#### 105. Construct Binary Tree From Preorder and Inorder Traversal([python](101_110/BuildTree.py), [description](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/))
+#### 106. Construct Binary Tree From Inorder and Postorder Traversal([python](101_110/BuildTree.py), [description](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/))
+#### 110. Balanced Binary Tree([python](101_110/BalancedBinaryTree.py), [description](https://leetcode.com/problems/balanced-binary-tree/))
