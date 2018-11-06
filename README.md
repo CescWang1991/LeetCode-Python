@@ -53,6 +53,10 @@
 #### 78. Subsets([python](71_80/Subsets.py), [description](https://leetcode.com/problems/subsets/))
 #### 80. Remove Duplicates from Sorted Arrays([python](71_80/RemoveDuplicates.py), [description](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/))
 
+#### 81 to 90:
+
+#### 84. Largest Rectangle Area([python](81_90/LargestRectangleArea.py), [description](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/), [solution](https://www.cnblogs.com/ganganloveu/p/4148303.html))
+
 #### 91 to 100:
 
 #### 93. Restore Ip Addresses([python](91_100/RestoreIpAddress.py), [description](https://leetcode.com/problems/restore-ip-addresses/))
