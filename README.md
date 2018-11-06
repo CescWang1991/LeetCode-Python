@@ -2,6 +2,18 @@
 
 ## Solutions for problemsets in Algorithm on LeetCode
 
+| # | Title | Scala | Java |  Python  | Difficulty
+| :--- | --------- | :--------- | :--------- | :--------- | :---------
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/TwoSum.scala)  | Java  | Python  | Easy
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/AddTwoNumbers.scala) | Java  | Python  | Medium
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/LongestSubstring.scala) | Java  | Python  | Medium
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/MedianTwoArrays.scala) | Java  | Python  | Hard
+| 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/ZigZagConversion.scala) | Java  | Python  | Medium
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/ReverseInteger.scala) | Java  | Python  | Easy
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/PalindromeNumber.scala) | Java  | Python  | Easy
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/RegularExpressionMatching.scala) | Java  | Python  | Hard
+
+
 ### 21 to 30:
 
 #### 24. Swap Pairs([python](Linked List/SwapPairs.py), [description](https://leetcode.com/problems/swap-nodes-in-pairs/))
