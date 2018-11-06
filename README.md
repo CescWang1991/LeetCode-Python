@@ -12,12 +12,19 @@
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/ReverseInteger.scala) | Java  | Python  | Easy
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/PalindromeNumber.scala) | Java  | Python  | Easy
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/RegularExpressionMatching.scala) | Java  | Python  | Hard
-
-
-### 21 to 30:
-
-#### 24. Swap Pairs([python](Linked List/SwapPairs.py), [description](https://leetcode.com/problems/swap-nodes-in-pairs/))
-#### 25. Reverse Nodes in k-Group([python](Linked List/ReverseNode.py), [description](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/11_20_java/ContainerWithMostWater.java) | Python | Medium
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/11_20_java/LongestCommonPrefix.java) | Python | Easy
+| 15 | [Three Sum](https://leetcode.com/problems/3sum/description/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/11_20_java/ThreeSum.java) | Python | Medium
+| 19 | [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/11_20_java/RemoveNthNodeFromEndofList.java) | Python | Medium
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/ValidParenthesesScala.scala) | [Java](https://github.com/CescWang1991/LeetCode/blob/master/11_20_java/ValidParentheses.java) | Python | Easy
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/MergeTwoSortedLists.scala) | Java | Python | Easy
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/GenerateParentheses.scala) | Java | Python | Medium
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/MergekSortedLists.scala) | Java | Python | Hard
+| 24 | [Swap Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/Linked%20List/SwapPairs.py) | Medium
+| 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/Linked%20List/ReverseNode.py) | Hard
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/RemoveDuplicatesFromSortedArray.scala) | Java | Python | Easy
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/RemoveElement.scala) | Java | Python | Easy
+| 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/SubstringWithConcatenationOfAllWords.scala) | Java | Python | Hard
 
 ### 31 to 40:
 
