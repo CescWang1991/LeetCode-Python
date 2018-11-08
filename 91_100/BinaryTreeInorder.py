@@ -11,32 +11,64 @@ class Solution:
         :type root: TreeNode
         :rtype: List[int]
         """
-        order = []
-        current = root
+        result = []
         stack = []
-        while current:
-            # 遍历左子树
-            if current.left:
-                stack.append(current)
-                current = current.left
-            # 遍历右子树
-            elif current.right:
-                order.append(current.val)
-                current = current.right
+        while stack or root:
+            if root:
+                stack.append(root)
+                root = root.left
             else:
-                order.append(current.val)
-                # pop栈顶元素直到元素有右孩子
-                while stack and not stack[-1].right:
-                    order.append(stack[-1].val)
-                    stack.pop()
-                if stack:
-                    order.append(stack[-1].val)
-                    current = stack[-1].right
-                    stack.pop()
-                else:
-                    current = None
+                root = stack.pop()
+                result.append(root.val)
+                root = root.right
 
-        return order
+        return result
+
+    def preorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        result = []
+        if not root:
+            return result
+
+        stack = []
+        while stack or root:
+            if root:
+                result.append(root.val)
+                stack.append(root)
+                root = root.left
+            else:
+                node = stack.pop()
+                root = node.right
+
+        return result
+
+    def postorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        result = []
+        if not root:
+            return result
+
+        stack = []
+        while stack or root:
+            if root:
+                stack.append(root)
+                result.insert(0, root.val)
+                root = root.right
+            else:
+                node = stack.pop()
+                root = node.left
+
+        return result
 
 
-Solution().inorderTraversal(TreeNode(1))
+node1 = TreeNode(3)
+node1.left = TreeNode(1)
+node2 = node1.left
+node2.right = TreeNode(2)
+print(Solution().postorderTraversal(node1))
