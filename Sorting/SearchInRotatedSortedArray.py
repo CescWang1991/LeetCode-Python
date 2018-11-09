@@ -5,31 +5,20 @@ class Solution:
         :type target: int
         :rtype: int
         """
-        if not nums:
-            return -1
-
-        start = 0
-        end = len(nums) - 1
-        while start < end:
-            mid = int((start + end) / 2)
-            if nums[mid] > nums[end]:
-                start = mid + 1
+        l = 0
+        r = len(nums) - 1
+        while l <= r:
+            m = int((l + r) / 2)
+            if nums[m] == target:
+                return m
+            if nums[m] < nums[r]:
+                if target > nums[m] and target <= nums[r]:
+                    l = m + 1
+                else:
+                    r = m - 1
             else:
-                end = mid
-
-        shift = start
-        end = shift + len(nums) - 1
-        while start <= end:
-            mid = int((start + end) / 2)
-            if target == nums[int(mid % len(nums))]:
-                return int(mid % len(nums))
-            elif target > nums[int(mid % len(nums))]:
-                start = mid + 1
-            else:
-                end = mid - 1
-
+                if target < nums[m] and target >= nums[l]:
+                    r = m - 1
+                else:
+                    l = m + 1
         return -1
-
-
-list = [1, 3]
-print(Solution().search(list, 3))
