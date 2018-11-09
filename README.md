@@ -25,16 +25,11 @@
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/RemoveDuplicatesFromSortedArray.scala) | Java | Python | Easy
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/RemoveElement.scala) | Java | Python | Easy
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/SubstringWithConcatenationOfAllWords.scala) | Java | Python | Hard
+| 33 | [Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Scala | Java | [python](https://github.com/CescWang1991/LeetCode-Python/blob/master/Sorting/SearchInRotatedSortedArray.py) | Medium
+| 35 | [Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/Sorting/SearchInsertPosition.py) | Easy
 | 94 | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
 | 144 | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
 | 145 | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Hard 
-
-
-
-### 31 to 40:
-
-#### 33. Search in Rotated Sorted Array([python](Sorting/SearchInRotatedSortedArray.py), [description](https://leetcode.com/problems/search-in-rotated-sorted-array/))
-#### 35. Search Insert Position([python](Sorting/SearchInsertPosition.py), [description](https://leetcode.com/problems/search-insert-position/))
 
 ### 41 to 50:
 
