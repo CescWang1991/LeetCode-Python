@@ -11,10 +11,11 @@
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/ZigZagConversion.scala) | Java  | Python  | Medium
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/ReverseInteger.scala) | Java  | Python  | Easy
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/PalindromeNumber.scala) | Java  | Python  | Easy
-| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/RegularExpressionMatching.scala) | Java  | Python  | Hard
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/RegularExpressionMatching.scala) | Java  | [Python]  | Hard
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/11_20_java/ContainerWithMostWater.java) | Python | Medium
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/11_20_java/LongestCommonPrefix.java) | Python | Easy
 | 15 | [Three Sum](https://leetcode.com/problems/3sum/description/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/11_20_java/ThreeSum.java) | Python | Medium
+| 17 | [Letter Combination of a Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | Scala | Java | [Python] | Medium
 | 19 | [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/11_20_java/RemoveNthNodeFromEndofList.java) | Python | Medium
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/ValidParenthesesScala.scala) | [Java](https://github.com/CescWang1991/LeetCode/blob/master/11_20_java/ValidParentheses.java) | Python | Easy
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/MergeTwoSortedLists.scala) | Java | Python | Easy
@@ -32,8 +33,8 @@
 | 35 | [Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/Sorting/SearchInsertPosition.py) | Easy
 | 36 | [Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/ValidSudoku.java) | Python | Medium
 | 37 | [Sudoku Solver](https://leetcode-cn.com/problems/sudoku-solver/) | Scala | Java | Python | Hard
-| 39 | [Combination Sum](https://leetcode-cn.com/problems/combination-sum/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/CombinationSum.java) | Python | Medium
-| 40 | [Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/CombinationSum.java) | Python | Medium
+| 39 | [Combination Sum](https://leetcode-cn.com/problems/combination-sum/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/CombinationSum.java) | [Python] | Medium
+| 40 | [Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/CombinationSum.java) | [Python] | Medium
 | 94 | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
 | 144 | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
 | 145 | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Hard 

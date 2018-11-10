@@ -39,7 +39,7 @@ class Solution:
                 if board[i][j] == ".":
                     for k in range(9):
                         board[i][j] = str(k)
-                        if self.isValid(board, i, j) and self.solveSudoku(board):
+                        if self.isValidSudoku(board) and self.solveSudoku(board):
                             return True
                         board[i][j] = "."
                     return False
