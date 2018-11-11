@@ -5,7 +5,7 @@
 # build an array with length of max number that record the counter of each positive number. return i + 1 if arr[i] = 0
 
 
-def first_missing_positive(nums):
+def firstMissingPositive(nums):
     max = 0
     for num in nums:
         if num > max:
@@ -23,7 +23,3 @@ def first_missing_positive(nums):
             break
 
     return first
-
-
-nums = [1, 2, -1, 4]
-print(first_missing_positive(nums))

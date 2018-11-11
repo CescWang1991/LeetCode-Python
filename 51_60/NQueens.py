@@ -16,6 +16,12 @@ class Solution:
         return result
 
     def search(self, n, cols, result):
+        """
+        :type n: int
+        :type cols: list[int]
+        :type result: list[list[str]]
+        :return: None
+        """
         if len(cols) == n:
             result.append(self.drawBoard(cols))
             return

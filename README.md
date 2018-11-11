@@ -37,7 +37,7 @@
 | 40 | [Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/CombinationSum.java) | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/31_40/CombinationSum.py) | Medium | Backtracking
 | 41 | [First Missing Positive](https://leetcode-cn.com/problems/first-missing-positive/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/FirstMissingPositive.py) | Hard | Array
 | 42 | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/TrappingRainWater.py) | Hard | Stack/ Two Pointers
-| 44 | [Wildcard Matching](https://leetcode-cn.com/problems/wildcard-matching/) | Scala | Java | Python | Hard | Dynamic Programming/ Backtracking
+| 44 | [Wildcard Matching](https://leetcode-cn.com/problems/wildcard-matching/) | Scala | Java | [Python] | Hard | Dynamic Programming/ Backtracking
 | 45 | [Jump Game II](https://leetcode-cn.com/problems/jump-game-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/JumpGame.py) | Hard | Greedy
 | 46 | [Permutations](https://leetcode-cn.com/problems/permutations/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/Permutations.py) | Medium | Backtracking
 | 47 | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/Permutations.py) | Medium | Backtracking

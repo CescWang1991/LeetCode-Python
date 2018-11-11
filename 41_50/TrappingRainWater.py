@@ -1,5 +1,6 @@
-# Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water
-# it is able to trap after raining.
+# 42. Trapping Rain Water
+# Two pointers traversal the array from left and right side. Maintain the max value of both left and right side.
+# If the value of current pointer less than maximum, add the subtraction to the area, else, replace the max value.
 
 
 def trap(height):

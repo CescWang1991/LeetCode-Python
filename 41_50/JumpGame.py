@@ -2,9 +2,9 @@
 # Each element in the array represents your maximum jump length at that position.
 # Your goal is to reach the last index in the minimum number of jumps.
 
-# We use "last" to keep track of the maximum distance that has been reached
-# by using the minimum steps "ret", whereas "curr" is the maximum distance
-# that can be reached by using "ret+1" steps. Thus,curr = max(i+A[i]) where 0 <= i <= last.
+# We use "last" to keep track of the maximum distance that has been reached by using the minimum steps "ret",
+# whereas "curr" is the maximum distance that can be reached by using "ret+1" steps.
+# Thus,curr = max(i+A[i]) where 0 <= i <= last.
 
 
 class Solution(object):
