@@ -43,20 +43,18 @@
 | 47 | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/Permutations.py) | Medium | Backtracking
 | 48 | [Rotate Image](https://leetcode-cn.com/problems/rotate-image/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/RotateImage.py) | Medium | Array
 | 49 | [Group Anagrams](https://leetcode-cn.com/problems/group-anagrams/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/GroupAnagrams.py) | Medium | Hash Table
+| 51 | [N-Queens](https://leetcode-cn.com/problems/n-queens/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/NQueens.py) | Hard | Backtracking
+| 52 | [N-Queens II](https://leetcode-cn.com/problems/n-queens-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/NQueens.py) | Hard | Backtracking
+| 53 | [Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/MaximumSubarray.py) | Easy | Dynamic Programming/ Divide and Conquer
+| 54 | [Spiral Matrix](https://leetcode-cn.com/problems/spiral-matrix/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/SpiralMatrix.py) | Medium | Array
+| 55 | [Jump Game](https://leetcode-cn.com/problems/jump-game/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/CanJump.py) | Medium | Greedy
+| 56 | [Merge Intervals](https://leetcode-cn.com/problems/merge-intervals/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/MergeIntervals.py) | Medium | Sorting
+| 57 | [Insert Interval](https://leetcode-cn.com/problems/insert-interval/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/InsertInterval.py) | Hard | Sorting
+| 59 | [Spiral Matrix II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/SpiralMatrixII.py) | Medium | Array
+| 60 | [Permutation Sequence](https://leetcode-cn.com/problems/permutation-sequence/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/PermutationSequence.py) | Medium | Backtracking
 | 94 | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
 | 144 | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
 | 145 | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Hard 
-
-### 51 to 60:
-
-#### 51. N-Queens([python](51_60/NQueens.py), [description](https://leetcode.com/problems/n-queens/description/))
-#### 52. N-Queens II([python](51_60/NQueens.py), [description](https://leetcode.com/problems/n-queens-ii/description/))
-#### 54. Spiral Matrix([python](51_60/SpiralMatrix.py), [description](https://leetcode.com/problems/spiral-matrix/description/))
-#### 55. Jump Game([python](51_60/CanJump.py), [description](https://leetcode.com/problems/jump-game/))
-#### 56. Merge Intervals([python](51_60/MergeIntervals.py), [description](https://leetcode.com/problems/merge-intervals/description/))
-#### 57. Insert Interval([python](51_60/InsertInterval.py), [description](https://leetcode.com/problems/spiral-matrix-ii/description/))
-#### 59. Spiral Matrix II([python](51_60/SpiralMatrixII.py), [description](https://leetcode.com/problems/spiral-matrix-ii/description/))
-#### 60. Permutation Sequence([python](51_60/PermutationSequence.py), [description](https://leetcode.com/problems/permutation-sequence/description/))
 
 ### 61 to 70:
 
