@@ -27,7 +27,7 @@
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/RemoveElement.scala) | Java | Python | Easy | Two Pointers
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/SubstringWithConcatenationOfAllWords.scala) | Java | Python | Hard | Hash Table/ Two Pointers
 | 31 | [Next Permutation](https://leetcode-cn.com/problems/next-permutation/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/NextPremutation.java) | Python | Medium | Array
-| 32 | [Longest Valid Parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/LongestValidParentheses.java) | Python | Hard | Dynamic Programming
+| 32 | [Longest Valid Parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/LongestValidParentheses.java) | Python | Hard | DP
 | 33 | [Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Scala | Java | [python](https://github.com/CescWang1991/LeetCode-Python/blob/master/Sorting/SearchInRotatedSortedArray.py) | Medium | Binary Search
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/SearchRange.java) | Python | Medium | Binary Search
 | 35 | [Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/Sorting/SearchInsertPosition.py) | Easy | Binary Search
@@ -37,7 +37,7 @@
 | 40 | [Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/CombinationSum.java) | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/31_40/CombinationSum.py) | Medium | Backtracking
 | 41 | [First Missing Positive](https://leetcode-cn.com/problems/first-missing-positive/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/FirstMissingPositive.py) | Hard | Array
 | 42 | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/TrappingRainWater.py) | Hard | Stack/ Two Pointers
-| 44 | [Wildcard Matching](https://leetcode-cn.com/problems/wildcard-matching/) | Scala | Java | [Python] | Hard | Dynamic Programming/ Backtracking
+| 44 | [Wildcard Matching](https://leetcode-cn.com/problems/wildcard-matching/) | Scala | Java | [Python] | Hard | DP/ Backtracking
 | 45 | [Jump Game II](https://leetcode-cn.com/problems/jump-game-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/JumpGame.py) | Hard | Greedy
 | 46 | [Permutations](https://leetcode-cn.com/problems/permutations/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/Permutations.py) | Medium | Backtracking
 | 47 | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/Permutations.py) | Medium | Backtracking
@@ -45,25 +45,24 @@
 | 49 | [Group Anagrams](https://leetcode-cn.com/problems/group-anagrams/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/GroupAnagrams.py) | Medium | Hash Table
 | 51 | [N-Queens](https://leetcode-cn.com/problems/n-queens/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/NQueens.py) | Hard | Backtracking
 | 52 | [N-Queens II](https://leetcode-cn.com/problems/n-queens-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/NQueens.py) | Hard | Backtracking
-| 53 | [Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/MaximumSubarray.py) | Easy | Dynamic Programming/ Divide and Conquer
+| 53 | [Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/MaximumSubarray.py) | Easy | DP/ Divide and Conquer
 | 54 | [Spiral Matrix](https://leetcode-cn.com/problems/spiral-matrix/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/SpiralMatrix.py) | Medium | Array
 | 55 | [Jump Game](https://leetcode-cn.com/problems/jump-game/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/CanJump.py) | Medium | Greedy
 | 56 | [Merge Intervals](https://leetcode-cn.com/problems/merge-intervals/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/MergeIntervals.py) | Medium | Sorting
 | 57 | [Insert Interval](https://leetcode-cn.com/problems/insert-interval/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/InsertInterval.py) | Hard | Sorting
 | 59 | [Spiral Matrix II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/SpiralMatrixII.py) | Medium | Array
 | 60 | [Permutation Sequence](https://leetcode-cn.com/problems/permutation-sequence/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/51_60/PermutationSequence.py) | Medium | Backtracking
+| 61 | [Rotate List](https://leetcode-cn.com/problems/rotate-list/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/61_70/RotateList.py) | Medium | Linked List/ Two Pointers
+| 62 | [Unique Paths](https://leetcode-cn.com/problems/unique-paths/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/61_70/UniquePaths.py) | Medium | DP
+| 63 | [Unique Paths II](https://leetcode-cn.com/problems/unique-paths-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/61_70/UniquePathsWithObstacles.py) | Medium | DP
+| 64 | [Minimal Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/61_70/MinPathSum.py) | Medium | DP
+| 67 | [Add Binary](https://leetcode-cn.com/problems/add-binary/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/61_70/AddBinary.py) | Easy | String
+| 70 | [Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/61_70/ClimbingStairs.py) | Easy | DP
+| 72 | [Edit Distance](https://leetcode-cn.com/problems/edit-distance/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/MinDistance.py) | Medium | DP
+| 73 | [Set Matrix Zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/SetZeroes.py) | Medium | Array
 | 94 | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
 | 144 | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
 | 145 | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Hard 
-
-### 61 to 70:
-
-#### 61. Rotate List([python](61_70/RotateList.py), [description](https://leetcode.com/problems/rotate-list/))
-#### 62. Unique Paths([python](61_70/UniquePaths.py), [description](https://leetcode.com/problems/unique-paths/))
-#### 63. Unique Paths II([python](61_70/UniquePathsWithObstacles.py), [description](https://leetcode.com/problems/unique-paths-ii/))
-#### 64. Minimal Path Sum([python](61_70/MinPathSum), [description](https://leetcode.com/problems/minimum-path-sum/))
-#### 67. Add Binary([python](61_70/AddBinary.py), [description](https://leetcode.com/problems/add-binary/)) 
-#### 70. Climbing  Stairs([python](61_70/ClimbingStairs.py), [description](https://leetcode.com/problems/climbing-stairs/))
 
 ### 71 to 80:
 
