@@ -20,13 +20,11 @@ class Solution:
                     total += 1
                     pointer += 1
                 else:
-                    num -= 1
                     nums.pop(pointer)
             else:
                 num = 1
                 total += 1
                 pointer += 1
-        print(nums)
 
         return total
 

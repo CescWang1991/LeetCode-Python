@@ -1,3 +1,4 @@
+# 78. Subsets
 # subset(n) = subset(n-1) + subset(n-1).append(n)
 
 class Solution:
@@ -21,5 +22,5 @@ class Solution:
         return lists
 
 
-nums = [1, 2, 3]
+nums = [1, 2, 3, 4]
 print(Solution().subsets(nums))

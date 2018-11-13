@@ -1,4 +1,6 @@
+# 64. Minimum path sum
 class Solution:
+    # DP in O(m*n)
     def minPathSum(self, grid):
         """
         :type grid: List[List[int]]
@@ -20,7 +22,8 @@ class Solution:
 
         return sums[0][0]
 
-
+    # 优化到用O(n)的空间复杂度
+    # dp[i][j]依赖dp[i][j-1], dp[i-1][j]，那么我们在循环时，只需要用到dp[j-1]与dp[j]，再更新dp[j]
     def pathSum(self, grid):
         """
         :type grid: List[List[int]]
@@ -30,6 +33,7 @@ class Solution:
         dp[0] = grid[0][0]
         for i in range(1, len(grid)):
             dp[i] = dp[i - 1] + grid[i][0]
+        print(dp)
         for j in range(1, len(grid[0])):
             for i in range(len(grid)):
                 dp[i] = min(dp[i], dp[i - 1]) + grid[i][j] if i > 0 else dp[i] + grid[i][j]
@@ -37,8 +41,8 @@ class Solution:
 
 
 grid = [
-  [1,3,1],
-  [1,5,1],
-  [4,2,1]
+  [1, 3, 1],
+  [1, 5, 1],
+  [4, 2, 1]
 ]
 print(Solution().pathSum(grid))

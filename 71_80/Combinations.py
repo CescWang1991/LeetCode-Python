@@ -23,4 +23,4 @@ class Solution:
         return lists
 
 
-print(Solution().combine(108, 4))
+print(Solution().combine(4, 2))

@@ -1,3 +1,5 @@
+# 82. Remove Duplicates from Sorted List II
+# 83. Remove Duplicates from Sorted List
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -20,6 +22,7 @@ class Solution:
         node = head
 
         dict = {}
+        # 用hash table存放链表中值出现的次数
         while node:
             if node.val not in dict.keys():
                 dict[node.val] = 1
@@ -35,12 +38,16 @@ class Solution:
     def delete(self, head, dict):
         dummy = ListNode(None)
         dummy.next = head
+        # head是尾节点时
         if not head.next:
             if dict[head] != 1:
                 return None
             else:
                 return dummy.next
         else:
+            # 删除head：
+            # head.val = delete(head.next).val
+            # head.next = delete(head.next)
             if dict[head.val] != 1:
                 nextNode = self.delete(head.next, dict)
                 if nextNode:
@@ -50,5 +57,24 @@ class Solution:
                     return None
             else:
                 head.next = self.delete(head.next, dict)
+
+        return dummy.next
+
+    def removeDuplicates(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        if not head:
+            return None
+
+        dummy = ListNode(None)
+        dummy.next = head
+
+        while head.next:
+            if head.val == head.next.val:
+                head.next = head.next.next
+            else:
+                head = head.next
 
         return dummy.next

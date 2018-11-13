@@ -25,7 +25,7 @@ class Solution:
             head = head.next
 
         # 当k大于链表长度n时，k = k % n，以新的k值重新运行一遍
-        if len(queue) != 0 and len(queue) < k:
+        if len(queue) != 0 and len(queue) <= k:
             k = k % len(queue)
             dummy.next = self.rotateRight(first[0], k)
             first = []
