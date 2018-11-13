@@ -28,7 +28,7 @@
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/SubstringWithConcatenationOfAllWords.scala) | Java | Python | Hard | Hash Table/ Two Pointers
 | 31 | [Next Permutation](https://leetcode-cn.com/problems/next-permutation/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/NextPremutation.java) | Python | Medium | Array
 | 32 | [Longest Valid Parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/LongestValidParentheses.java) | Python | Hard | DP
-| 33 | [Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Scala | Java | [python](https://github.com/CescWang1991/LeetCode-Python/blob/master/Sorting/SearchInRotatedSortedArray.py) | Medium | Binary Search
+| 33 | [Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/Sorting/SearchInRotatedSortedArray.py) | Medium | Binary Search
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/SearchRange.java) | Python | Medium | Binary Search
 | 35 | [Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/Sorting/SearchInsertPosition.py) | Easy | Binary Search
 | 36 | [Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/ValidSudoku.java) | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/31_40/ValidSudoku.py) | Medium | Hash Table
@@ -37,7 +37,7 @@
 | 40 | [Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/CombinationSum.java) | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/31_40/CombinationSum.py) | Medium | Backtracking
 | 41 | [First Missing Positive](https://leetcode-cn.com/problems/first-missing-positive/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/FirstMissingPositive.py) | Hard | Array
 | 42 | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/TrappingRainWater.py) | Hard | Stack/ Two Pointers
-| 44 | [Wildcard Matching](https://leetcode-cn.com/problems/wildcard-matching/) | Scala | Java | [Python] | Hard | DP/ Backtracking
+| 44 | [Wildcard Matching](https://leetcode-cn.com/problems/wildcard-matching/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/WildcardMatching.py) | Hard | DP/ Backtracking
 | 45 | [Jump Game II](https://leetcode-cn.com/problems/jump-game-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/JumpGame.py) | Hard | Greedy
 | 46 | [Permutations](https://leetcode-cn.com/problems/permutations/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/Permutations.py) | Medium | Backtracking
 | 47 | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/41_50/Permutations.py) | Medium | Backtracking
@@ -60,24 +60,25 @@
 | 70 | [Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/61_70/ClimbingStairs.py) | Easy | DP
 | 72 | [Edit Distance](https://leetcode-cn.com/problems/edit-distance/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/MinDistance.py) | Medium | DP
 | 73 | [Set Matrix Zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/SetZeroes.py) | Medium | Array
+| 74 | [Search Target](https://leetcode-cn.com/problems/search-a-2d-matrix/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/SearchMatrix.py) | Medium | Binary Search
+| 75 | [Sort Colors](https://leetcode-cn.com/problems/sort-colors/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/SortColor.py) | Medium | Two Pointers
+| 76 | [Minimum Window Substring](https://leetcode-cn.com/problems/minimum-window-substring/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/MinWindow.py) | Hard | Two Pointer/ Hash Table
+| 77 | [Combinations](https://leetcode-cn.com/problems/combinations/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/Combinations.py) | Medium | Backtracking
+| 78 | [Subsets](https://leetcode-cn.com/problems/subsets/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/Subsets.py) | Medium | Backtracking
+| 79 | [Word Search](https://leetcode-cn.com/problems/word-search/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/WordSearch.py) | Medium | Backtracking
+| 80 | [Remove Duplicates from Sorted Arrays](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/RemoveDuplicates.py) | Medium | Two Pointers
+| 81 | [Search in Rotated Sorted Array II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/81_90_scala/SearchSortedArray.scala) | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/SearchRange.py) | Medium | Binary Search
+| 82 | [Remove Duplicates from Sorted List II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/DeleteDuplicates.py) | Medium | Linked List
+| 83 | [Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/81_90_scala/DeleteDuplicates.scala) | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/DeleteDuplicates.py) | Easy | Linked List
+| 84 | [Largest Rectangle Area](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [Scala](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/LargestRectangleArea.py) | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/LargestRectangleArea.py) | Hard | Stack
+| 85 | [Maximum Rectangle](https://leetcode-cn.com/problems/maximal-rectangle/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/MaxRectangle.py) | Hard | DP
+| 86 | [Partition List](https://leetcode-cn.com/problems/partition-list/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/81_90_scala/PartitionList.scala) | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/PartitionList.py) | Medium | Linked List
+| 87 | [Scramble String](https://leetcode-cn.com/problems/scramble-string/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/ScrambleString.py) | Hard | DP
+| 89 | [Gray Code](https://leetcode-cn.com/problems/gray-code/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/81_90_scala/GrayCode.scala) | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/GrayCode.py) | Medium | Backtracking
+| 90 | [Subset II](https://leetcode-cn.com/problems/subsets-ii/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/81_90_scala/Subsets.scala) | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/Subsets.py) | Medium | Backtracking
 | 94 | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
 | 144 | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
 | 145 | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Hard 
-
-### 71 to 80:
-
-#### 72. Min Distance([python](71_80/MinDistance.py), [description](https://leetcode.com/problems/edit-distance/))
-#### 73. Set Matrix Zeroes([python](71_80/SetZeros.py), [description](https://leetcode.com/problems/set-matrix-zeroes/))
-#### 74. Search Target([python](71_80/SearchMatrix.py), [description](https://leetcode.com/problems/search-a-2d-matrix/))
-#### 75. Sort Colors([python](71_80/SortColor.py), [description](https://leetcode.com/problems/sort-colors/))
-#### 76. Minimum Window Substring([python](71_80/MinWindow.py), [description](https://leetcode.com/problems/minimum-window-substring/))
-#### 77. Combinations([python](71_80/Combinations.py), [description](https://leetcode.com/problems/combinations/))
-#### 78. Subsets([python](71_80/Subsets.py), [description](https://leetcode.com/problems/subsets/))
-#### 80. Remove Duplicates from Sorted Arrays([python](71_80/RemoveDuplicates.py), [description](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/))
-
-#### 81 to 90:
-
-#### 84. Largest Rectangle Area([python](81_90/LargestRectangleArea.py), [description](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/), [solution](https://www.cnblogs.com/ganganloveu/p/4148303.html))
 
 #### 91 to 100:
 
