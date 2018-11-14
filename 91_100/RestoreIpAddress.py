@@ -1,3 +1,6 @@
+# 93. Restore Ip Addresses
+# Backtracking: 构造辅助函数helper, 返回s所能构造的ip地址的前n位
+
 class Solution:
     def restoreIpAddresses(self, s):
         """

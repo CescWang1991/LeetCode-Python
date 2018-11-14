@@ -1,3 +1,5 @@
+# 95. Unique Binary Search Tree II
+# 96. Unique Binary Search Tree
 # Dynamic Programming
 # 拿到n个数字后，从中依次选取一个作为根结点，遍历其左子树和右子树的所有方法的所有笛卡尔积组合，累加，作为该点作为根节点的方法数。
 
@@ -17,6 +19,7 @@ class Solution:
         res = [0] * (n+1)
         res[0] = res[1] = 1
 
+        # dp[n] = dp[1] * dp[n-1] + dp[2] * dp[n-2] + ... + dp[n-1] * dp[1]
         for i in range(2, n+1):
             for j in range(0, i):
                 res[i] += res[j] * res[i-1-j]
