@@ -76,17 +76,17 @@
 | 87 | [Scramble String](https://leetcode-cn.com/problems/scramble-string/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/ScrambleString.py) | Hard | DP
 | 89 | [Gray Code](https://leetcode-cn.com/problems/gray-code/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/81_90_scala/GrayCode.scala) | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/GrayCode.py) | Medium | Backtracking
 | 90 | [Subset II](https://leetcode-cn.com/problems/subsets-ii/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/81_90_scala/Subsets.scala) | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/81_90/Subsets.py) | Medium | Backtracking
-| 94 | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
+| 91 | [Decode Ways](https://leetcode-cn.com/problems/decode-ways/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/DecodeWays.py) | Medium | DP
+| 92 | [Reverse Linked List II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/ReverseLinkedList.py) | Medium | Linked List
+| 93 | [Restore IP Address](https://leetcode-cn.com/problems/restore-ip-addresses/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/RestoreIpAddress.py) | Medium | Backtracking
+| 94 | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium | Tree/ Stack
+| 95 | [Unique Binary Search Tree II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinarySearchTree.py) | Medium | Tree/ DP
+| 96 | [Unique Binary Search Tree](https://leetcode-cn.com/problems/unique-binary-search-trees/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinarySearchTree.py) | Medium | Tree/ DP
+| 97 | [Interleaving String](https://leetcode-cn.com/problems/interleaving-string/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/InterLeave.py) | Hard | DP
+| 98 | [Valid Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/ValidBST.py) | Medium | Tree/ DFS
+| 99 | [Recover Binary Search Tree](https://leetcode-cn.com/problems/recover-binary-search-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/RecoverBST.py) | Hard | Tree/ DFS
 | 144 | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
 | 145 | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Hard 
-
-#### 91 to 100:
-
-#### 93. Restore Ip Addresses([python](91_100/RestoreIpAddress.py), [description](https://leetcode.com/problems/restore-ip-addresses/))
-#### 94. Binary Tree Inorder Traversal([python](91_100/BinaryTreeInorder.py), [description](https://leetcode.com/problems/binary-tree-inorder-traversal/))
-#### 95. Unique Binary Search Tree II([python](91_100/BinarySearchTree.py), [description](https://leetcode.com/problems/unique-binary-search-trees-ii/))
-#### 96. Unique Binary Search Trees([python](91_100/BinarySearchTree.py), [description](https://leetcode.com/problems/unique-binary-search-trees/))
-#### 99. Recover Binary Search Trees([python](91_100/RecoverBST.py), [description](https://leetcode.com/problems/recover-binary-search-tree/))
 
 ### 101 to 110:
 
