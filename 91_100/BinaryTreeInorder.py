@@ -13,6 +13,7 @@ class Solution:
         """
         result = []
         stack = []
+        # 中序遍历，先遍历左子树，到叶节点时，将pop栈中的节点并将值加入res中，然后遍历右子树
         while stack or root:
             if root:
                 stack.append(root)
@@ -34,6 +35,7 @@ class Solution:
             return result
 
         stack = []
+        # 前序遍历，先将当前节点的值加入res中，然后再遍历左子树，到达节点时pop栈顶，再遍历右子树
         while stack or root:
             if root:
                 result.append(root.val)
@@ -55,6 +57,7 @@ class Solution:
             return result
 
         stack = []
+        # 后序遍历，将当前节点的值加入res的队尾，然后先遍历右子树，再遍历左子树
         while stack or root:
             if root:
                 stack.append(root)
@@ -65,10 +68,3 @@ class Solution:
                 root = node.left
 
         return result
-
-
-node1 = TreeNode(3)
-node1.left = TreeNode(1)
-node2 = node1.left
-node2.right = TreeNode(2)
-print(Solution().postorderTraversal(node1))

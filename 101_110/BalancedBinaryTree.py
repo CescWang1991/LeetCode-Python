@@ -1,4 +1,6 @@
-# Definition for a binary tree node.
+# 110. Balanced Binary Tree
+# 运用Bottom-up方法，辅助函数dfsHeight返回树的高度，如果左右子树高度差大于1，或者左右子树有一个不平衡，则返回-1。
+
 class TreeNode:
     def __init__(self, x):
         self.val = x
