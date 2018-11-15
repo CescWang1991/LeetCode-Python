@@ -85,12 +85,14 @@
 | 97 | [Interleaving String](https://leetcode-cn.com/problems/interleaving-string/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/InterLeave.py) | Hard | DP
 | 98 | [Valid Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/ValidBST.py) | Medium | Tree/ DFS
 | 99 | [Recover Binary Search Tree](https://leetcode-cn.com/problems/recover-binary-search-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/RecoverBST.py) | Hard | Tree/ DFS
+| 102 | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/101_110/BinaryTreeLevelOrderTraversal.py) | Medium | Tree/ BFS
+| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/101_110/ZigzagLevelOrder.py) | Medium | Tree/ BFS
+| 104 | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/101_110/MaxDepthBST.py) | Easy | Tree/ DFS
+| 105 | [ConStruct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/101_110/BuildTree.py) | Medium | Tree/ DFS
+| 106 | [Construct Binary Tree From Inorder and Postorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/101_110/BuildTree.py) | Medium | Tree/ DFS
+| 107 | [Binary Tree Level Order Traversal II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/101_110/BinaryTreeLevelOrderTraversal.py) | Easy | Tree/ BFS
+| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/101_110/SortedArrayToBST.py) | Easy | Tree/ DFS
+| 109 | [Convert Sorted List to Binary Search Tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/101_110/SortedArrayToBST.py) | Medium | DFS/ Linked List
+| 110 | [Balanced Binary Tree](https://leetcode-cn.com/problems/balanced-binary-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/101_110/BalancedBinaryTree.py) | Easy | Tree/ DFS
 | 144 | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
-| 145 | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Hard 
-
-### 101 to 110:
-
-#### 103. Binary Tree Zigzag Level Order Traversal([python](101_110/ZigzagLevelOrder.py), [description](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/))
-#### 105. Construct Binary Tree From Preorder and Inorder Traversal([python](101_110/BuildTree.py), [description](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/))
-#### 106. Construct Binary Tree From Inorder and Postorder Traversal([python](101_110/BuildTree.py), [description](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/))
-#### 110. Balanced Binary Tree([python](101_110/BalancedBinaryTree.py), [description](https://leetcode.com/problems/balanced-binary-tree/))
+| 145 | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Hard
