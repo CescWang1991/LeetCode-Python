@@ -1,4 +1,5 @@
 # 126. Word Ladder II
+# 127. Word Ladder
 
 class Solution:
     def findLadders(self, beginWord, endWord, wordList):
@@ -8,43 +9,82 @@ class Solution:
         :type wordList: List[str]
         :rtype: List[List[str]]
         """
-        res = []
         if endWord not in wordList:
-            return res
-
-        if self.distance(beginWord, endWord) == 1:
-            return [[beginWord, endWord]]
-
+            return []
+        # 建立字典，key为wordList中的每个单词
+        res = []
+        dict = {}
         for word in wordList:
-            if self.distance(beginWord, word) == 1:
-                # 在这里使用copy方法，这样在remove word的时候，不会影响到wordList。
-                words = wordList.copy()
-                words.remove(word)
-                post = self.findLadders(word, endWord, words)
-                if post:
-                    for l in post:
-                        res.append([beginWord] + l)
+            if word not in dict.keys():
+                dict[word] = 0
 
-        if res:
-            minLen = min(list(map(lambda x:len(x), res)))
-            res = list(filter(lambda x:len(x)==minLen, res))
+        n = len(beginWord)
+        minLayer = float('Inf')
+        queue = [(beginWord, 1, [beginWord])]
+
+        while queue:
+            beginWord = queue[0][0]
+            layer = queue[0][1]
+            list = queue[0][2]
+            if beginWord in dict.keys():
+                del dict[beginWord]
+            # 遍历单词中的每一位，从a-z替代，如果replaced在wordList中，则加入队列，并从list删除，layer是辅助层数, list是辅助队列；
+            # 遍历完当前单词后，将其从队列中删除(pop头部)
+            if layer < minLayer:
+                for bit in range(n):
+                    curr = beginWord
+                    for code in range(97, 123):
+                        replcaced = curr[:bit] + chr(code) + curr[bit+1:]
+                        if replcaced == endWord:
+                            res.append(list + [endWord])
+                            minLayer = min(minLayer, layer+1)
+                        if replcaced in dict.keys():
+                            queue.append((replcaced, layer +1, list + [replcaced]))
+                del queue[0]
+            else:
+                break
 
         return res
 
 
-    def distance(self, w1, w2):
-        if len(w1) != len(w2):
-            return -1
+    def ladderLength(self, beginWord, endWord, wordList):
+        """
+        :type beginWord: str
+        :type endWord: str
+        :type wordList: List[str]
+        :rtype: int
+        """
+        if endWord not in wordList:
+            return 0
+        # 建立字典，key为wordList中的每个单词
+        dict = {}
+        for word in wordList:
+            if word not in dict.keys():
+                dict[word] = 0
 
-        dist = 0
-        for i in range(len(w1)):
-            if w1[i] != w2[i]:
-                dist += 1
+        n = len(beginWord)
+        queue = [(beginWord, 1)]
 
-        return dist
+        while queue:
+            beginWord = queue[0][0]
+            layer = queue[0][1]
+            if beginWord in dict.keys():
+                del dict[beginWord]
+            # 遍历单词中的每一位，从a-z替代，如果replaced在wordList中，则加入队列，并从list删除，layer是辅助层数；
+            # 遍历完当前单词后，将其从队列中删除(pop头部)
+            for bit in range(n):
+                curr = beginWord
+                for code in range(97, 123):
+                    replcaced = curr[:bit] + chr(code) + curr[bit+1:]
+                    if replcaced == endWord:
+                        return layer + 1
+                    if replcaced in dict.keys():
+                        queue.append((replcaced, layer+1))
+            del queue[0]
 
+        return 0
 
-beginWord = "hit"
-endWord = "cog"
-wordList = ["hot","dot","dog","lot","log","cog"]
+beginWord = "red"
+endWord = "tax"
+wordList = ["ted","tex","red","tax","tad","den","rex","pee"]
 print(Solution().findLadders(beginWord, endWord, wordList))
