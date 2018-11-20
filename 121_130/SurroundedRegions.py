@@ -1,6 +1,7 @@
 # 130. Surrounded Regions
 
 class Solution:
+    # 解法一：运用DFS方法
     def solve(self, board):
         """
         :type board: List[List[str]]
@@ -48,6 +49,52 @@ class Solution:
         else:
             return False
 
+    # 解法二：运用并查集方法
+    def solveUnionFind(self, board):
+        if not board:
+            return
+        m = len(board[0])
+        n = len(board)
+        # 建立字典，将"O"节点的位置设为key放入字典中
+        dict = {}
+        for i in range(n):
+            for j in range(m):
+                if board[i][j] == "O":
+                    dict[(i, j)] = 0
+
+        for i in range(n):
+            for j in range(m):
+                if (i, j) in dict.keys() and self.isBorder([i, j], m, n):
+                    del dict[(i, j)]
+                    self.dfs((i, j), dict)
+
+        for pos in dict.keys():
+            board[pos[0]][pos[1]] = "X"
+
+    def dfs(self, pos, dict):
+        i, j = pos[0], pos[1]
+        # 向上遍历
+        upper = (i - 1, j)
+        if dict.get(upper) == 0:
+            del dict[upper]
+            self.dfs(upper, dict)
+        # 向下遍历
+        lower = (i + 1, j)
+        if dict.get(lower) == 0:
+            del dict[lower]
+            self.dfs(lower, dict)
+        # 向左遍历
+        left = (i, j - 1)
+        if dict.get(left) == 0:
+            del dict[left]
+            self.dfs(left, dict)
+        # 向右遍历
+        right = (i, j + 1)
+        if dict.get(right) == 0:
+            del dict[right]
+            self.dfs(right, dict)
+
+
 board = [
      ["O", "O", "O", "O", "X", "X"],
      ["O", "O", "O", "O", "O", "O"],
@@ -56,6 +103,6 @@ board = [
      ["O", "X", "O", "X", "O", "O"],
      ["O", "X", "O", "O", "O", "O"]
 ]
-Solution().solve(board)
+Solution().solveUnionFind(board)
 for line in board:
     print(line)
