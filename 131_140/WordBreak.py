@@ -55,7 +55,43 @@ class Solution:
 
         return res
 
+    # DP+DFS方法：LeetCode超时
+    def wordBreakDp(self, s, wordDict):
+        """
+        :type s: str
+        :type wordDict: List[str]
+        :rtype: List[str]
+        """
+        if not s:
+            return []
 
-s = "aaaaaa"
-wordDict = ["a", "aa", "aaaa"]
-print(Solution().wordSplit(s, wordDict))
+        n = len(s)
+        # dp[i]记录了s的前i位的workBreak解的最后一个单词的集合
+        dp = []
+        dp.append([])
+
+        for i in range(1, n+1):
+            first = s[:i]
+            dp.append([])
+            for length in range(i):
+                if first[i-1-length:] in wordDict:
+                    dp[i].append(first[i-1-length:])
+        return self.dfs(s, dp)
+
+
+    def dfs(self, s, dp):
+        if not s:
+            return []
+
+        res = []
+        if dp[len(s)]:
+            for word in dp[len(s)]:
+                if word == s:
+                    res.append(word)
+                else:
+                    prev = self.dfs(s[:(len(s) - len(word))], dp)
+                    if prev:
+                        for str in prev:
+                            res.append(str+" "+word)
+
+        return res

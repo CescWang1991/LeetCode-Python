@@ -121,6 +121,6 @@
 | 136 | [Single Number](https://leetcode-cn.com/problems/single-number/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/131_140/SingleNumber.py) | Easy | Bit Manipulation
 | 137 | [Single Number II](https://leetcode-cn.com/problems/single-number-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/131_140/SingleNumber.py) | Medium | Bit Manipulation
 | 139 | [Word Break](https://leetcode-cn.com/problems/word-break/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/131_140/WordBreak.py) | Medium | DP
-| 140 | [Word Break II](https://github.com/CescWang1991/LeetCode-Python/blob/master/131_140/WordBreak.py) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/131_140/WordBreak.py) | Hard | DP/ Backtracking
+| 140 | [Word Break II](https://leetcode-cn.com/problems/word-break-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/131_140/WordBreak.py) | Hard | DP/ Backtracking
 | 144 | [Binary Tree Preorder Traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Medium
 | 145 | [Binary Tree Postorder Traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/91_100/BinaryTreeInorder.py) | Hard
