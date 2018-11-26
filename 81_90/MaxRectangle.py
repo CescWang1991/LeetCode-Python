@@ -1,3 +1,6 @@
+# 84. Largest Rectangle Area
+# 85. Maximal Rectangle
+
 class Solution:
     def largestRectangleArea(self, nums):
         if not nums:
@@ -22,6 +25,8 @@ class Solution:
 
         return m
 
+    # 逐层遍历，用height来记录0到当前层的柱状图高度，如果当前高度为1，则为前一层高度加一，否则为0。
+    # 然后利用largestRectangleArea来计算当前height的最大面积，并更新maxArea。
     def maximalRectangle(self, matrix):
         """
         :type matrix: List[List[str]]

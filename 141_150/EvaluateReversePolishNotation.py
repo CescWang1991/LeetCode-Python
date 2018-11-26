@@ -31,4 +31,27 @@ class Solution:
                 i += 1
         return int(tokens[0])
 
-print(Solution().evalRPN(["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]))
+    def evalStack(self, tokens):
+        stack = []
+        for token in tokens:
+            if token in ["+", "-", "*", "/"]:
+                second = int(stack[-1])
+                stack.pop()
+                first = int(stack[-1])
+                stack.pop()
+                res = 0
+                if token == "+":
+                    res = first + second
+                elif token == "-":
+                    res = first - second
+                elif token == "*":
+                    res = first * second
+                elif token == "/":
+                    res = int(first / second)
+                stack.append(res)
+            else:
+                stack.append(token)
+        return int(stack[-1])
+
+
+print(Solution().evalStack(["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]))

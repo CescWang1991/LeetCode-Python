@@ -1,3 +1,5 @@
+# 32. longest Valid Parentheses
+
 def longestValidParentheses(s):
     """
     :type s: str
@@ -6,22 +8,21 @@ def longestValidParentheses(s):
     if not s:
         return s
 
-    stack = [("", -1)]
+    stack = list()
+    stack.append(-1)
+    longest = 0
     for i in range(len(s)):
-        if not stack:
-            stack.append((s[i], i))
-        else:
-            if s[i] == ")" and stack[-1][0] == "(":
-                stack.pop()
+        # 当遇到"("时，将它的index加入到stack中。
+        if s[i] == "(":
+            stack.append(i)
+        # 当遇到")"时，将栈顶index取出，如果stack为空，将它的index加入堆栈。
+        elif s[i] == ")":
+            stack.pop()
+            if not stack:
+                stack.append(i)
             else:
-                stack.append((s[i], i))
-    stack.append(("", len(s)))
-    print(stack)
-    l = 0
-    for i in range(1, len(stack)):
-        if stack[i][1] - stack[i-1][1] - 1 > l:
-            l = stack[i][1] - stack[i-1][1] - 1
-    return l
+                longest = max(longest, i - stack[-1])
+    return longest
 
 
 s = "(()))())("

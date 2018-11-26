@@ -10,7 +10,8 @@ class Solution:
         for i in range(m):
             for j in range(1, n):
                 ways[j] += ways[j-1]
+                print(ways)
         return ways[n-1]
 
 
-print(Solution().uniquePaths(3, 2))
+print(Solution().uniquePaths(3, 4))

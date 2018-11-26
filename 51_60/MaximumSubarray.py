@@ -12,17 +12,17 @@ class Solution:
         if not nums:
             return 0
 
-        maxSum = 0
+        maxSum = - float("Inf")
         currSum = 0
         for i in range(len(nums)):
             currSum += nums[i]
             if currSum > maxSum:
                 maxSum = currSum
-            elif currSum < 0:
+            if currSum < 0:
                 currSum = 0
 
         return maxSum
 
 
-nums = [-2,1,-3,4,-1,2,1,-5,4,-3]
+nums = [-2,1,-3,4,-1,2,1,-5,4]
 print(Solution().maxSubArray(nums))
