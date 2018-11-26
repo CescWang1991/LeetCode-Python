@@ -2,7 +2,7 @@
 
 ## Solutions for problemsets in Algorithm on LeetCode
 
-| # | Title | Scala | Java |  Python  | Difficulty | category
+| # | Title | Scala | Java |  Python  | Difficulty | Category
 | :--- | --------- | :--------- | :--------- | :--------- | :--------- | :---------
 | 1 | [Two Sum](https://leetcode-cn.com/problems/two-sum/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/TwoSum.scala)  | Java  | Python  | Easy | Hash Table
 | 2 | [Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/description/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/01_10_scala/AddTwoNumbers.scala) | Java  | Python  | Medium | Linked List
@@ -28,7 +28,7 @@
 | 30 | [Substring with Concatenation of All Words](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) | [Scala](https://github.com/CescWang1991/LeetCode/blob/master/20_30_scala/SubstringWithConcatenationOfAllWords.scala) | Java | Python | Hard | Hash Table/ Two Pointers
 | 31 | [Next Permutation](https://leetcode-cn.com/problems/next-permutation/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/NextPremutation.java) | Python | Medium | Array
 | 32 | [Longest Valid Parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/LongestValidParentheses.java) | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/31_40/LongestValidParentheses.py) | Hard | DP
-| 33 | [Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/Sorting/SearchInRotatedSortedArray.py) | Medium | Binary Search
+| 33 | [Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/31_40/SearchInRotatedSortedArray.py) | Medium | Binary Search
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/SearchRange.java) | Python | Medium | Binary Search
 | 35 | [Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/Sorting/SearchInsertPosition.py) | Easy | Binary Search
 | 36 | [Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku/) | Scala | [Java](https://github.com/CescWang1991/LeetCode/blob/master/31_40_java/ValidSudoku.java) | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/31_40/ValidSudoku.py) | Medium | Hash Table
@@ -132,3 +132,8 @@
 | 148 | [Sort List](https://leetcode-cn.com/problems/sort-list/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/141_150/SortList.py) | Medium | Linked List/ Sorting
 | 149 | [Max Points on a Line](https://leetcode-cn.com/problems/max-points-on-a-line/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/141_150/MaxPointsLine.py) | Hard | Hash Table
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/141_150/EvaluateReversePolishNotation.py) | Medium | Stack
+| 151 | [Reverse Words in a String](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/151_160/ReverseWords.py) | Medium | String
+| 152 | [Maximum Product Subarray](https://leetcode-cn.com/problems/maximum-product-subarray/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/151_160/MaximumProductSubarray.py) | Medium | DP
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/151_160/FindMin.py) | Medium | Binary Search
+| 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/151_160/FindMin.py) | Hard | Binary Search
+| 155 | [Min Stack](https://leetcode-cn.com/problems/min-stack/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/151_160/MinStack.py) | Easy | Stack
