@@ -46,3 +46,8 @@ class Solution:
             return right
         if not right:
             return left
+
+
+intervals = [[2,4], [0,2], [3,6], [4,7]]
+intervals.sort()
+print(intervals)
