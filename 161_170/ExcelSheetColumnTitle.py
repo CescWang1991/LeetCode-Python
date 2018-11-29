@@ -1,5 +1,5 @@
 # 168. Excel Sheet Column Title
-
+# 171. Excel Number Column Number
 
 class Solution:
     def convertToTitle(self, n):
@@ -18,4 +18,17 @@ class Solution:
 
         return "".join(reversed(title))
 
-print(Solution().convertToTitle(701))
+
+    def titleToNumber(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        length = len(s)
+        num = 0
+        for i in range(length):
+            num += (ord(s[length-i-1]) - 64) * (26**i)
+
+        return num
+
+print(Solution().titleToNumber("ZY"))
