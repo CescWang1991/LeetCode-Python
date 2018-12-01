@@ -145,3 +145,7 @@
 | 167 | [Two Sum II - Input array is sorted](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/161_170/TwoSum.py) | Easy | Binary Search
 | 168 | [Excel Sheet Column Title](https://leetcode-cn.com/problems/excel-sheet-column-title/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/161_170/ExcelSheetColumnTitle.py) | Easy | Math
 | 169 | [Majority Element](https://leetcode-cn.com/problems/majority-element/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/161_170/MajorityElement.py) | Easy | Array
+| 171 | [Excel Sheet Column Number](https://leetcode-cn.com/problems/excel-sheet-column-number/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/161_170/ExcelSheetColumnTitle.py) | Easy | Math
+| 172 | [Factorial Trailing Zeroes](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/171_180/FactorialTrailingZeroes.py) | Easy | Math
+| 173 | [Binary Search Tree Iterator](https://leetcode-cn.com/problems/binary-search-tree-iterator/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/171_180/BSTIterator.py) | Medium | Tree/ Stack
+| 174 | [Dungeon Game](https://leetcode-cn.com/problems/dungeon-game/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/171_180/DungeonGame.py) | Hard | DP
