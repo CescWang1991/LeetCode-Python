@@ -149,3 +149,8 @@
 | 172 | [Factorial Trailing Zeroes](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/171_180/FactorialTrailingZeroes.py) | Easy | Math
 | 173 | [Binary Search Tree Iterator](https://leetcode-cn.com/problems/binary-search-tree-iterator/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/171_180/BSTIterator.py) | Medium | Tree/ Stack
 | 174 | [Dungeon Game](https://leetcode-cn.com/problems/dungeon-game/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/171_180/DungeonGame.py) | Hard | DP
+| 179 | [Largest Number](https://leetcode-cn.com/problems/largest-number/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/171_180/LargestNumber.py) | Medium | Sorting
+| 187 | [Repeated DNA Sequences](https://leetcode-cn.com/problems/repeated-dna-sequences/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/181_190/RepeatedDNASequences.py) | Medium | Hash Table
+| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/121_130/BuyAndSellStock.py) | Hard | DP
+| 189 | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/181_190/RotateArray.py) | Easy | Array
+| 190 | [Reverse Bits](https://leetcode-cn.com/problems/reverse-bits/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/181_190/ReverseBits.py) | Easy | Bit Manipulation
