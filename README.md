@@ -158,3 +158,13 @@
 | 198 | [House Robber](https://leetcode-cn.com/problems/house-robber/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/HouseRobber.py) | Easy | DP
 | 199 | [Binary Tree Right Side View](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/BinaryTreeRightSideView.py) | Medium | Tree/ DFS
 | 200 | [Number of Islands](https://leetcode-cn.com/problems/number-of-islands/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/NumberOfIslands.py) | Medium | DFS/ BFS/ Union Find
+
+
+## Solutions for problemsets in Database on LeetCode
+| # | Title | MySQL | Difficulty
+| :--- | --------- | :--------- | :---------
+| 175 | [Combine Two Tables](https://leetcode-cn.com/problems/combine-two-tables/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Easy
+| 176 | [Second Highest Salary](https://leetcode-cn.com/problems/second-highest-salary/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Easy
+| 177 | [Nth Highest Salary](https://leetcode-cn.com/problems/nth-highest-salary/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Medium
+| 178 | [Rank Scores](https://leetcode-cn.com/problems/rank-scores/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Medium
+| 180 | [Consecutive Numbers](https://leetcode-cn.com/problems/consecutive-numbers/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Medium
