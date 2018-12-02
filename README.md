@@ -154,3 +154,7 @@
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/121_130/BuyAndSellStock.py) | Hard | DP
 | 189 | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/181_190/RotateArray.py) | Easy | Array
 | 190 | [Reverse Bits](https://leetcode-cn.com/problems/reverse-bits/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/181_190/ReverseBits.py) | Easy | Bit Manipulation
+| 191 | [Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/NumberOfOneBits.py) | Easy | Bit Manipulation
+| 198 | [House Robber](https://leetcode-cn.com/problems/house-robber/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/HouseRobber.py) | Easy | DP
+| 199 | [Binary Tree Right Side View](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/BinaryTreeRightSideView.py) | Medium | Tree/ DFS
+| 200 | [Number of Islands](https://leetcode-cn.com/problems/number-of-islands/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/NumberOfIslands.py) | Medium | DFS/ BFS/ Union Find
