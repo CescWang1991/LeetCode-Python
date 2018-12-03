@@ -168,3 +168,8 @@
 | 177 | [Nth Highest Salary](https://leetcode-cn.com/problems/nth-highest-salary/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Medium
 | 178 | [Rank Scores](https://leetcode-cn.com/problems/rank-scores/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Medium
 | 180 | [Consecutive Numbers](https://leetcode-cn.com/problems/consecutive-numbers/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Medium
+| 181 | [Employees Earning More Than Their Managers](https://leetcode-cn.com/problems/employees-earning-more-than-their-managers/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/181_190/MySQL.md) | Easy
+| 182 | [Duplicate Emails](https://leetcode-cn.com/problems/duplicate-emails/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/181_190/MySQL.md) | Easy
+| 183 | [Customers Who Never Order](https://leetcode-cn.com/problems/customers-who-never-order/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/181_190/MySQL.md) | Easy
+| 184 | [Department Highest Salary](https://leetcode-cn.com/problems/department-highest-salary/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/181_190/MySQL.md) | Medium
+| 185 | [Department Top Three Salary](https://leetcode-cn.com/problems/department-top-three-salaries/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/181_190/MySQL.md) | Hard
