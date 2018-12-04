@@ -154,3 +154,22 @@
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/121_130/BuyAndSellStock.py) | Hard | DP
 | 189 | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/181_190/RotateArray.py) | Easy | Array
 | 190 | [Reverse Bits](https://leetcode-cn.com/problems/reverse-bits/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/181_190/ReverseBits.py) | Easy | Bit Manipulation
+| 191 | [Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/NumberOfOneBits.py) | Easy | Bit Manipulation
+| 198 | [House Robber](https://leetcode-cn.com/problems/house-robber/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/HouseRobber.py) | Easy | DP
+| 199 | [Binary Tree Right Side View](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/BinaryTreeRightSideView.py) | Medium | Tree/ DFS
+| 200 | [Number of Islands](https://leetcode-cn.com/problems/number-of-islands/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/NumberOfIslands.py) | Medium | DFS/ BFS/ Union Find
+
+
+## Solutions for problemsets in Database on LeetCode
+| # | Title | MySQL | Difficulty
+| :--- | --------- | :--------- | :---------
+| 175 | [Combine Two Tables](https://leetcode-cn.com/problems/combine-two-tables/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Easy
+| 176 | [Second Highest Salary](https://leetcode-cn.com/problems/second-highest-salary/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Easy
+| 177 | [Nth Highest Salary](https://leetcode-cn.com/problems/nth-highest-salary/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Medium
+| 178 | [Rank Scores](https://leetcode-cn.com/problems/rank-scores/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Medium
+| 180 | [Consecutive Numbers](https://leetcode-cn.com/problems/consecutive-numbers/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/171_180/MySQL.md) | Medium
+| 181 | [Employees Earning More Than Their Managers](https://leetcode-cn.com/problems/employees-earning-more-than-their-managers/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/181_190/MySQL.md) | Easy
+| 182 | [Duplicate Emails](https://leetcode-cn.com/problems/duplicate-emails/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/181_190/MySQL.md) | Easy
+| 183 | [Customers Who Never Order](https://leetcode-cn.com/problems/customers-who-never-order/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/181_190/MySQL.md) | Easy
+| 184 | [Department Highest Salary](https://leetcode-cn.com/problems/department-highest-salary/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/181_190/MySQL.md) | Medium
+| 185 | [Department Top Three Salary](https://leetcode-cn.com/problems/department-top-three-salaries/) | [MySQL](https://github.com/CescWang1991/LeetCode-Python/blame/master/181_190/MySQL.md) | Hard
