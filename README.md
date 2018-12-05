@@ -158,6 +158,16 @@
 | 198 | [House Robber](https://leetcode-cn.com/problems/house-robber/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/HouseRobber.py) | Easy | DP
 | 199 | [Binary Tree Right Side View](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/BinaryTreeRightSideView.py) | Medium | Tree/ DFS
 | 200 | [Number of Islands](https://leetcode-cn.com/problems/number-of-islands/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/NumberOfIslands.py) | Medium | DFS/ BFS/ Union Find
+| 201 | [Range Bit Wise And](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/RangeBitWiseAnd.py) | Medium | Bit Manipulation
+| 202 | [Happy Number](https://leetcode-cn.com/problems/happy-number/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/HappyNumber.py) | Easy | Hash Table
+| 203 | [Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/RemoveLinkedListElements.py) | Easy | Linked List
+| 204 | [Count Primes](https://leetcode-cn.com/problems/count-primes/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/CountPrimes.py) | Easy | Hash Table
+| 205 | [Isomorphic Strings](https://leetcode-cn.com/problems/isomorphic-strings/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/IsomorphicStrings.py) | Easy | Hash Table
+| 206 | [Reverse List](https://leetcode-cn.com/problems/reverse-linked-list/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/ReverseList.py) | Easy | Linked List
+| 207 | [Course Schedule](https://leetcode-cn.com/problems/course-schedule/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/CourseSchedule.py) | Medium | DFS/ BFS/ Graph
+| 208 | [Implement Trie(Prefix Tree)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/Trie.py) | Medium | Trie
+| 209 | [Minimum Size Subarray Sum](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/MinSubArrayLen.py) | Medium | Two Pointers
+| 210 | [Course Schedule II](https://leetcode-cn.com/problems/course-schedule-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/CourseSchedule.py) | Medium | DFS/ BFS/ Graph
 
 
 ## Solutions for problemsets in Database on LeetCode
