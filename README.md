@@ -168,6 +168,11 @@
 | 208 | [Implement Trie(Prefix Tree)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/Trie.py) | Medium | Trie
 | 209 | [Minimum Size Subarray Sum](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/MinSubArrayLen.py) | Medium | Two Pointers
 | 210 | [Course Schedule II](https://leetcode-cn.com/problems/course-schedule-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/CourseSchedule.py) | Medium | DFS/ BFS/ Graph
+| 211 | [Add and Search Word - Data Structure Design](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/AddAndSearchWord.py) | Medium | Trie
+| 212 | [Word Search II](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/WordSearch.py) | Scala | Java | [Python](https://leetcode-cn.com/problems/word-search-ii/) | Hard | Trie/ Backtracking
+| 213 | [House Robber II](https://leetcode-cn.com/problems/house-robber-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/HouseRobber.py) | Medium | DP
+| 214 | [Shortest Palindrome](https://leetcode-cn.com/problems/shortest-palindrome/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/ShortestPalindrome.py) | Hard | KMP
+| 215 | [Kth Largest Element in an Array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/KthLargestElement.py) | Medium | Heap
 
 
 ## Solutions for problemsets in Database on LeetCode
