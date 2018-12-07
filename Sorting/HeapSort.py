@@ -4,22 +4,18 @@ def swap_param(L, i, j):
 
 # 重建堆，在当前结点交换完之后，检查交换后的子节点是否符合最大堆的条件
 def heap_adjust(L, start, end):
-    temp = L[start]
-
     i = start
     j = 2 * i
 
     while j <= end:
         if (j < end) and (L[j] < L[j + 1]):
             j += 1
-        if temp < L[j]:
-            L[i] = L[j]
+        if L[i] < L[j]:
+            L[i], L[j] = L[j], L[i]
             i = j
             j = 2 * i
         else:
             break
-    L[i] = temp
-
 
 def heap_sort(L):
     L_length = len(L) - 1

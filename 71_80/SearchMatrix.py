@@ -32,7 +32,10 @@ class Solution:
         if target != matrix[targetRow][numCol - 1]:
             return False
 
-    def binarySearchMatrix(self, matrix, target):
+class Solution2:
+    # 用二分法搜索，先搜索没行头元素，确定所在的行，具体方法可参考 # 35. Search Insert Position
+    # 之后用二分法搜索所在行是否有相同的值。
+    def searchMatrix(self, matrix, target):
         """
         :type matrix: List[List[int]]
         :type target: int
@@ -51,10 +54,12 @@ class Solution:
 
         while lo <= hi:
             mid = (lo + hi) // 2
-            if matrix[mid][0] <= target:
+            if matrix[mid][0] < target:
                 lo = mid + 1
-            else:
+            elif matrix[mid][0] > target:
                 hi = mid - 1
+            else:
+                return True
 
         row = lo - 1
         if row < 0:
@@ -62,23 +67,21 @@ class Solution:
 
         lo = 0
         hi = m - 1
-        col = -1
 
         while lo <= hi:
             mid = (lo + hi) // 2
             if matrix[row][mid] == target:
-                col = mid
-                break
+                return True
             elif matrix[row][mid] < target:
                 lo = mid + 1
             else:
                 hi = mid - 1
 
-        return col >= 0
+        return False
 
 
 input = [
   [1]
 ]
 target = 1
-print(Solution().binarySearchMatrix(input, target))
+print(Solution().SearchMatrix(input, target))

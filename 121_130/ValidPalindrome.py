@@ -1,6 +1,5 @@
 # 125. Valid Palindrome
 
-
 class Solution:
     def isPalindrome(self, s):
         """

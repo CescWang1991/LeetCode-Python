@@ -1,8 +1,9 @@
 # 198. House Robber
-# Dynamic Programming：维持两个数组local和global，分别表示局部最大值(取i位时总量的最大值)以及全局最大值(前i位的最大值)。
-# 状态转移方程：local[i] = global[i-2]+nums[i]；global[i] = max(global[i-1], local[i])
+# 213. House Robber II
 
 class Solution:
+    # Dynamic Programming：维持两个数组local和global，分别表示局部最大值(取i位时总量的最大值)以及全局最大值(前i位的最大值)。
+    # 状态转移方程：local[i] = global[i-2]+nums[i]；global[i] = max(global[i-1], local[i])
     def rob(self, nums):
         """
         :type nums: List[int]
@@ -26,3 +27,15 @@ class Solution:
             globa[i] = max(globa[i-1], local[i])
 
         return globa[len(nums)-1]
+
+    # 沿用#198中的方程，
+    def robber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        if not nums:
+            return 0
+        if len(nums) == 1:
+            return nums[0]
+        return max(self.rob(nums[:-1]), self.rob(nums[1:]))
