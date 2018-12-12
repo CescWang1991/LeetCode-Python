@@ -173,6 +173,15 @@
 | 213 | [House Robber II](https://leetcode-cn.com/problems/house-robber-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/HouseRobber.py) | Medium | DP
 | 214 | [Shortest Palindrome](https://leetcode-cn.com/problems/shortest-palindrome/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/ShortestPalindrome.py) | Hard | KMP
 | 215 | [Kth Largest Element in an Array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/KthLargestElement.py) | Medium | Heap
+| 216 | [Combination Sum III](https://leetcode-cn.com/problems/combination-sum-iii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/31_40/CombinationSum.py) | Medium | Backtracking
+| 217 | [Contains Duplicates](https://leetcode-cn.com/problems/contains-duplicate/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/ContainDuplicates.py) | Easy | Hash Table
+| 218 | [The Skyline Problem](https://leetcode-cn.com/problems/the-skyline-problem/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/TheSkylineProblem.py) | Hard | Heap/ Binary Indexed Tree/ Segment Tree
+| 219 | [Contains Duplicates II](https://leetcode-cn.com/problems/contains-duplicate-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/ContainDuplicates.py) | Easy | Hash Table
+| 220 | [Contains Duplicates III](https://leetcode-cn.com/problems/contains-duplicate-iii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/ContainDuplicates.py) | Medium | Binary Search Tree
+| 221 | [Maximum Square](https://leetcode-cn.com/problems/maximal-square/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/MaximumSquare.py) | Medium | DP
+| 222 | [Count Complete Tree Nodes](https://leetcode-cn.com/problems/count-complete-tree-nodes/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/CountCompleteTreeNode.py) | Medium | Binary Search
+| 223 | [Rectangle Area](https://leetcode-cn.com/problems/rectangle-area/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/RectangleArea.py) | Medium | Math
+| 225 | [Implement Stack Using Queue](https://leetcode-cn.com/problems/implement-stack-using-queues/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/StackUsingQueue.py) | Easy | Stack
 
 
 ## Solutions for problemsets in Database on LeetCode
