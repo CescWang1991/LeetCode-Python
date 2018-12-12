@@ -1,3 +1,7 @@
+# 39. Combination Sum
+# 40. Combination Sum II
+# 216. Combination Sum III
+
 class Solution:
     def combinationSum(self, candidates, target):
         """
@@ -49,5 +53,26 @@ class Solution:
 
         return result
 
+    # 定义一个辅助函数help，其中s表示数字1-9循环开始的数字，后面的post数组中元素都要大于s
+    def combinationSum3(self, k, n):
+        """
+        :type k: int
+        :type n: int
+        :rtype: List[List[int]]
+        """
+        return self.help(k, n, 1)
 
-print(Solution().combinationSum2([10,1,2,7,6,1,5], 8))
+    def help(self, k, n, s):
+        res = []
+        if k <= 0 or k > n or k * 9 < n or s > 9:
+            return res
+        if k == 1 and s <= n <= 9:
+            return [[n]]
+
+        for i in range(s, 10):
+            post = self.help(k-1, n - i, i+1)
+            if post:
+                for elem in post:
+                    res.append([i] + elem)
+
+        return res
