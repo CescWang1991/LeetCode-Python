@@ -181,8 +181,21 @@
 | 221 | [Maximum Square](https://leetcode-cn.com/problems/maximal-square/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/MaximumSquare.py) | Medium | DP
 | 222 | [Count Complete Tree Nodes](https://leetcode-cn.com/problems/count-complete-tree-nodes/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/CountCompleteTreeNode.py) | Medium | Binary Search
 | 223 | [Rectangle Area](https://leetcode-cn.com/problems/rectangle-area/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/RectangleArea.py) | Medium | Math
-| 225 | [Implement Stack Using Queue](https://leetcode-cn.com/problems/implement-stack-using-queues/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/StackUsingQueue.py) | Easy | Stack
-
+| 225 | [Implement Stack Using Queue](https://leetcode-cn.com/problems/implement-stack-using-queues/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/StackAndQueue.py) | Easy | Stack
+| 226 | [Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/InvertBinaryTree.py) | Easy | Tree
+| 228 | [Summary Ranges](https://leetcode-cn.com/problems/summary-ranges/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/SummaryRanges.py) | Medium | Array
+| 229 | [Majority Element II](https://leetcode-cn.com/problems/majority-element-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/161_170/MajorityElement.py) | Medium | Array
+| 230 | [Kth Smallest Element in a BST](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/KthSmallestInBST.py) | Medium | Tree/ Binary Search
+| 231 | [Power of Two](https://leetcode-cn.com/problems/power-of-two/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/231_240/PowerOfTwo.py) | Easy | Bit Manipulation
+| 232 | [Implement Queue Using Stack](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/221_230/StackAndQueue.py) | Easy | Stack
+| 233 | [Number of Digit One](https://leetcode-cn.com/problems/number-of-digit-one/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/231_240/NumberOfDigitOne.py) | Hard | Math
+| 234 | [Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/231_240/PalindromeLinkedList.py) | Easy | Linked List
+| 235 | [Lowest Common Ancestor BST](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/231_240/LowestCommonAncestor.py) | Easy | Tree
+| 236 | [Lowest Common Ancestor BT](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/231_240/LowestCommonAncestor.py) | Medium | Tree
+| 237 | [Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/231_240/DeleteNodeLinkedList.py) | Easy | Linked List
+| 238 | [Product of Array Except Self](https://leetcode-cn.com/problems/product-of-array-except-self/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/231_240/ProductArrayExceptSelf.py) | Medium | Array
+| 239 | [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/231_240/SlidingWindowMaximum.py) | Hard | Heap
+| 240 | [Search a 2D Matrix II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/SearchMatrix.py) | Medium | Binary Search
 
 ## Solutions for problemsets in Database on LeetCode
 | # | Title | MySQL | Difficulty
