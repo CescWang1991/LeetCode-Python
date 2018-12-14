@@ -1,4 +1,5 @@
 # 225. Implement Stack Using Queue
+# 232. Implement Queue Using Stack
 
 class MyStack:
     # 使用双队列
@@ -70,6 +71,55 @@ class MyStack:
         :rtype: bool
         """
         if self.q1 or self.q2:
+            return False
+        else:
+            return True
+
+
+class MyQueue:
+    # 使用双堆栈，一个用来push时存放元素，一个用来pop和peek
+    def __init__(self):
+        """
+        Initialize your data structure here.
+        """
+        self.pushStack = []
+        self.popStack = []
+
+    def push(self, x):
+        """
+        Push element x to the back of queue.
+        :type x: int
+        :rtype: void
+        """
+        self.pushStack.append(x)
+    # pop堆栈空时，将第一个stack中的元素按LIFO顺序推入第二个stack中，这样stack中的元素按逆序进入第二个stack，并将栈顶推出。
+    def pop(self):
+        """
+        Removes the element from in front of queue and returns that element.
+        :rtype: int
+        """
+        if not self.popStack:
+            while self.pushStack:
+                self.popStack.append(self.pushStack.pop())
+        x = self.popStack.pop()
+        return x
+
+    def peek(self):
+        """
+        Get the front element.
+        :rtype: int
+        """
+        if not self.popStack:
+            while self.pushStack:
+                self.popStack.append(self.pushStack.pop())
+        return self.popStack[-1]
+
+    def empty(self):
+        """
+        Returns whether the queue is empty.
+        :rtype: bool
+        """
+        if self.pushStack or self.popStack:
             return False
         else:
             return True

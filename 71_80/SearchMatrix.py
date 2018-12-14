@@ -1,4 +1,5 @@
-# 74. Search Matrix
+# 74. Search a 2D Matrix
+# 240. Search a 2D Matrix II
 # 用二分法先查询target在第一列(matrix[i][0])中的位置，然后在相应的排中搜索target是否存在于matrix[i][j]
 
 class Solution:
@@ -80,8 +81,53 @@ class Solution2:
         return False
 
 
-input = [
-  [1]
-]
-target = 1
-print(Solution().SearchMatrix(input, target))
+class Solution3:
+    # 与74一样，用二分法搜索，先搜索没行头元素，确定所在的行。
+    # 然后从目标行开始，向上逐行搜索(二分法搜索列)，如果target大于该列最后一个元素，则返回false。
+    def searchMatrix(self, matrix, target):
+        """
+        :type matrix: List[List[int]]
+        :type target: int
+        :rtype: bool
+        """
+        if not matrix or not matrix[0]:
+            return False
+
+        n = len(matrix)
+        lo = 0
+        hi = n - 1
+
+        while lo <= hi:
+            mid = (lo + hi) // 2
+            if matrix[mid][0] < target:
+                lo = mid + 1
+            elif matrix[mid][0] > target:
+                hi = mid - 1
+            else:
+                return True
+        row = lo - 1
+        if row < 0:
+            return False
+
+        for i in reversed(range(row+1)):
+            if target > matrix[i][-1]:
+                return False
+            if self.searchCol(matrix[i], target):
+                return True
+
+        return False
+
+    def searchCol(self, col, target):
+        lo = 0
+        hi = len(col) - 1
+
+        while lo <= hi:
+            mid = (lo + hi) // 2
+            if col[mid] == target:
+                return True
+            elif col[mid] < target:
+                lo = mid + 1
+            else:
+                hi = mid - 1
+
+        return False
