@@ -43,8 +43,7 @@ class Solution:
                     elif dict[currWord] > wordDict[currWord]:
                         # 我们从begin开始遍历直到该单词之前出现的位置，将begin置于该位置+length
                         # 然后将遍历到的单词在dict中减一
-                        temp = begin
-                        for i in range(temp, curr, length):
+                        for i in range(begin, curr, length):
                             dict[s[i:i+length]] -= 1
                             if s[i:i+length] == currWord:
                                 begin = i + length

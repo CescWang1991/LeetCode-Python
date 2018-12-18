@@ -29,3 +29,4 @@ class Solution:
             reverse = head
             head = head.next
             reverse.next = next
+        return reverse

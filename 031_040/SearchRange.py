@@ -1,3 +1,5 @@
+# 034. Find First and Last Position of Element in Sorted Array
+
 class Solution:
     def searchRange(self, nums, target):
         """
@@ -35,7 +37,3 @@ class Solution:
                 rs += 1
 
         return result
-
-nums = [1]
-target = 1
-Solution().searchRange(nums, target)
