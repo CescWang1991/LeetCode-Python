@@ -1,7 +1,4 @@
-# 42. Trapping Rain Water
-# Two pointers traversal the array from left and right side. Maintain the max value of both left and right side.
-# If the value of current pointer less than maximum, add the subtraction to the area, else, replace the max value.
-
+# 042. Trapping Rain Water
 
 def trap(height):
     area = 0
@@ -9,14 +6,15 @@ def trap(height):
     right = len(height) - 1
     left_max = 0
     right_max = 0
+    # 双指针从两边向中间遍历，维持左右两边的最大值
     while left < right:
-        if height[left] < height[right]:
-            if(height[left] < left_max):
+        if height[left] < height[right]:    # 右边高，则更新左边值
+            if(height[left] < left_max):    # 与max比较，小于增将差值加入到area中
                 area += left_max - height[left]
             else:
                 left_max = height[left]
             left += 1
-        else:
+        else:                               # 左边高，则更新右边值
             if (height[right] < right_max):
                 area += right_max - height[right]
             else:
@@ -24,7 +22,3 @@ def trap(height):
             right -= 1
 
     return area
-
-
-height = [0,1,0,2,1,0,1,3,2,1,2,1]
-print(trap(height))

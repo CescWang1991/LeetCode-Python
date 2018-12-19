@@ -1,5 +1,5 @@
-# 39. Combination Sum
-# 40. Combination Sum II
+# 039. Combination Sum
+# 040. Combination Sum II
 # 216. Combination Sum III
 
 class Solution:
@@ -14,12 +14,14 @@ class Solution:
         if not candidates:
             return result
 
-        for num in candidates:
+        for i in range(len(candidates)):
+            num = candidates[i]
             if target == num:
                 result.append([num])
             else:
                 if target > num:
-                    res = self.combinationSum(candidates[candidates.index(num):], target - num)
+                    # rest的目标candidates包含当前元素，因为元素可重复提取
+                    res = self.combinationSum(candidates[i:], target - num)
                     if res:
                         for list in res:
                             result.append([num] + list)
@@ -39,13 +41,13 @@ class Solution:
 
         candidates.sort()
         for i in range(len(candidates)):
-            if i > 0 and candidates[i] in candidates[:i]:
+            if i > 0 and candidates[i] in candidates[:i]:   # candidates包含重复数字，如果当前元素的相同元素以遍历，则直接跳过
                 continue
 
             if target == candidates[i]:
                 result.append([candidates[i]])
             elif target > candidates[i]:
-                res = [] if i == len(candidates) - 1 else candidates[i+1:]
+                res = [] if i == len(candidates) - 1 else candidates[i+1:]  # 这里的candidates不能包含当前元素
                 lists = self.combinationSum2(res, target - candidates[i])
                 if lists:
                     for list in lists:

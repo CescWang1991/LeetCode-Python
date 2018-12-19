@@ -1,4 +1,4 @@
-# 44. Wildcard Match
+# 044. Wildcard Match
 
 class Solution:
     # Dynamic Programming: dp[i][j]表示s的前i位与p的前j位匹配的结果
@@ -46,6 +46,3 @@ class Solution:
             return self.isMatch(s, pRes) or (firstMatch and self.isMatch(sRes, p))
         else:
             return firstMatch and self.isMatch(sRes, pRes)
-
-
-print(Solution().isMatchWithDp("aa", "*"))

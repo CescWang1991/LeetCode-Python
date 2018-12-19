@@ -1,5 +1,5 @@
-# 46. Permutations and 47. Permutations II
-# In Permutations II, continue if the number is in the previous array
+# 046. Permutations
+# 047. Permutations II
 
 class Solution(object):
     def permute(self, nums):
@@ -22,7 +22,7 @@ class Solution(object):
             rest = nums.copy()
             del rest[i]
 
-            # added code for 47. Permutation II
+            # added code for 47. Permutation II: continue if the number is in the previous array
             if i != 0 and nums[i] in nums[:i]:
                 continue
             # ---------------------------------
@@ -35,6 +35,3 @@ class Solution(object):
                     multi.append([nums[i]] + list)
 
         return multi
-
-
-print(Solution().permute([1, 1, 2]))
