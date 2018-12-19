@@ -49,6 +49,7 @@
 | 47 | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/041_050/Permutations.py) | Medium | Backtracking
 | 48 | [Rotate Image](https://leetcode-cn.com/problems/rotate-image/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/041_050/RotateImage.py) | Medium | Array
 | 49 | [Group Anagrams](https://leetcode-cn.com/problems/group-anagrams/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/041_050/GroupAnagrams.py) | Medium | Hash Table
+| 50 | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/041_050/MyPow.py) | Medium | Binary Search
 | 51 | [N-Queens](https://leetcode-cn.com/problems/n-queens/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/051_060/NQueens.py) | Hard | Backtracking
 | 52 | [N-Queens II](https://leetcode-cn.com/problems/n-queens-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/051_060/NQueens.py) | Hard | Backtracking
 | 53 | [Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/051_060/MaximumSubarray.py) | Easy | DP/ Divide and Conquer
