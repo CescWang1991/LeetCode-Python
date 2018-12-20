@@ -1,3 +1,5 @@
+# 067. Add Binary
+
 class Solution:
     def addBinary(self, a, b):
         """
@@ -9,18 +11,18 @@ class Solution:
         n = len(b)
         sums = [0] * max(m, n)
         carry = 0
-        for i in reversed(range(-min(m, n), 0)):
+        for i in reversed(range(-min(m, n), 0)):    # 从最低位-1开始，到重合的位
             sum = carry + int(a[i]) + int(b[i])
-            if sum == 3:
+            if sum == 3:                            # 产生11
                 carry = 1
                 sums[i] = 1
-            elif sum == 2:
+            elif sum == 2:                          # 产生10
                 carry = 1
                 sums[i] = 0
-            elif sum == 1:
+            elif sum == 1:                          # 产生01
                 carry = 0
                 sums[i] = 1
-            else:
+            else:                                   # 产生00
                 carry = 0
                 sums[i] = 0
 
@@ -52,8 +54,3 @@ class Solution:
             sums.insert(0, 1)
 
         return ''.join(str(n) for n in sums)
-
-
-a = "11001"
-b = "111"
-print(Solution().addBinary(a, b))

@@ -1,4 +1,7 @@
+# 070. Climbing Stairs
+
 class Solution:
+    # 斐波那契数列
     def climbStairs(self, n):
         """
         :type n: int
@@ -14,6 +17,3 @@ class Solution:
                 dp[i] = dp[i - 1] + dp[i - 2]
 
             return dp[n-1]
-
-
-print(Solution().climbStairs(35))
