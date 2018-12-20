@@ -1,7 +1,9 @@
-# Brute force
+# 051. N-Queens
+# 052. N-Queens II
 # From: https://www.jianshu.com/p/8f3b8df612ae
 
 class Solution:
+    #  回溯算法，对于每一行，试验每一个位置，然后验证是否存在冲突。
     def solveNQueens(self, n):
         """
         :type n: int
@@ -11,7 +13,7 @@ class Solution:
         if n <= 0:
             return result
 
-        cols = []
+        cols = []       # 列数组，每一个位置上的数字代表该index所在列上Q的位置
         self.search(n, cols, result)
         return result
 
@@ -26,21 +28,21 @@ class Solution:
             result.append(self.drawBoard(cols))
             return
 
-        for col in range(n):
-            if not self.isValid(cols, col):
+        for col in range(n):                        # 遍历每一行
+            if not self.isValid(cols, col):         # 假如存在冲突，直接跳过
                 continue
-            self.search(n, cols + [col], result)
-
+            self.search(n, cols + [col], result)    # 继续搜索下一列
+    # 验证新的一列是否和之前的列存在冲突
     def isValid(self, cols, col):
         currentRowNumber = len(cols)
         for i in range(currentRowNumber):
-            # same column
+            # 是否在同一列
             if cols[i] == col:
                 return False
-            # left-top to right-bottom
+            # 左上角至右下角的斜线
             if i - cols[i] == currentRowNumber - col:
                 return False
-            # right-top to left-bottom
+            # 右上角至左下角的斜线
             if i + cols[i] == currentRowNumber + col:
                 return False
         return True
@@ -56,6 +58,3 @@ class Solution:
                     line += "."
             board.append(line)
         return board
-
-
-print(Solution().solveNQueens(4))

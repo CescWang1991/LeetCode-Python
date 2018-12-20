@@ -1,3 +1,5 @@
+# 056. Merge Intervals
+
 class Interval:
     def __init__(self, s=0, e=0):
         self.start = s
@@ -9,19 +11,16 @@ class Interval:
 
 class Solution:
     def merge(self, intervals):
+        # 将intervals按照开始位置排序
         intervals.sort(key=lambda x: x.start)
 
         merged = []
         for interval in intervals:
-            # if the list of merged intervals is empty or if the current interval does not overlap with the previous,
-            # simply append it.
+            # 如果merged为空或者当前interval没有覆盖(overlap)前一个，将其添加
             if not merged or merged[-1].end < interval.start:
                 merged.append(interval)
+            # 否则，我们将当前区间与merged的最后区间合并
             else:
-                # otherwise, there is overlap, so we merge the current and previous intervals.
                 merged[-1].end = max(merged[-1].end, interval.end)
 
         return merged
-
-
-print(Solution().merge([Interval(0, 3), Interval(0, 4), Interval(1, 2), Interval(4, 5)]))
