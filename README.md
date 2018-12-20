@@ -62,9 +62,12 @@
 | 60 | [Permutation Sequence](https://leetcode-cn.com/problems/permutation-sequence/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/051_060/PermutationSequence.py) | Medium | Backtracking
 | 61 | [Rotate List](https://leetcode-cn.com/problems/rotate-list/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/061_070/RotateList.py) | Medium | Linked List/ Two Pointers
 | 62 | [Unique Paths](https://leetcode-cn.com/problems/unique-paths/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/061_070/UniquePaths.py) | Medium | DP
-| 63 | [Unique Paths II](https://leetcode-cn.com/problems/unique-paths-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/061_070/UniquePathsWithObstacles.py) | Medium | DP
+| 63 | [Unique Paths II](https://leetcode-cn.com/problems/unique-paths-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/061_070/UniquePaths.py) | Medium | DP
 | 64 | [Minimal Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/061_070/MinPathSum.py) | Medium | DP
+| 66 | [Plus One](https://leetcode-cn.com/problems/plus-one/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/061_070/PlusOne.py) | Easy | Array
 | 67 | [Add Binary](https://leetcode-cn.com/problems/add-binary/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/061_070/AddBinary.py) | Easy | String
+| 68 | [Text Justification](https://leetcode-cn.com/problems/text-justification/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/061_070/PlusOne.py) | Hard | String
+| 69 | [Sqrt(x)](https://leetcode-cn.com/problems/sqrtx/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/061_070/Sqrt(x).py) | Easy | Binary Search
 | 70 | [Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/061_070/ClimbingStairs.py) | Easy | DP
 | 72 | [Edit Distance](https://leetcode-cn.com/problems/edit-distance/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/071_080/MinDistance.py) | Medium | DP
 | 73 | [Set Matrix Zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/071_080/SetZeroes.py) | Medium | Array
