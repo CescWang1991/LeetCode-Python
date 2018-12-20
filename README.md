@@ -57,7 +57,8 @@
 | 55 | [Jump Game](https://leetcode-cn.com/problems/jump-game/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/051_060/CanJump.py) | Medium | Greedy
 | 56 | [Merge Intervals](https://leetcode-cn.com/problems/merge-intervals/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/051_060/MergeIntervals.py) | Medium | Sorting
 | 57 | [Insert Interval](https://leetcode-cn.com/problems/insert-interval/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/051_060/InsertInterval.py) | Hard | Sorting
-| 59 | [Spiral Matrix II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/051_060/SpiralMatrixII.py) | Medium | Array
+| 58 | [Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/051_060/LengthLastWord.py) | Easy | String
+| 59 | [Spiral Matrix II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/051_060/SpiralMatrix.py) | Medium | Array
 | 60 | [Permutation Sequence](https://leetcode-cn.com/problems/permutation-sequence/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/051_060/PermutationSequence.py) | Medium | Backtracking
 | 61 | [Rotate List](https://leetcode-cn.com/problems/rotate-list/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/061_070/RotateList.py) | Medium | Linked List/ Two Pointers
 | 62 | [Unique Paths](https://leetcode-cn.com/problems/unique-paths/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/061_070/UniquePaths.py) | Medium | DP
