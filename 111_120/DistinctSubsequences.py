@@ -1,7 +1,4 @@
 # 115. Distinct Subsequences
-# Dynamic Programming: dp[i][j]表示t[:j+1]在s[:i+1]中的字串数
-# 如果i>j并且j>0: dp[i][j] = dp[i-1][j-1] + dp[i-1][j] 当s[i] = t[j]时，前一项表示s[i]保留时的个数，后一项表示s[i]消除时的个数
-# 当s[i] != t[j]时，dp[i][j] = dp[i-1][j]
 
 class Solution:
     def numDistinct(self, s, t):
@@ -12,7 +9,7 @@ class Solution:
         """
         m = len(s)
         n = len(t)
-
+        # Dynamic Programming: dp[i][j]表示t[:j+1]在s[:i+1]中的字串数
         dp = [[0] * n for i in range(m)]
         dp[0][0] = 1 if s[0] == t[0] else 0
 
@@ -26,11 +23,9 @@ class Solution:
                     if j == 0:
                         dp[i][j] = dp[i-1][j] + 1 if s[i] == t[j] else dp[i-1][j]
                     else:
+                        # 如果i>j并且j>0: dp[i][j] = dp[i-1][j-1] + dp[i-1][j]
+                        # 当s[i] = t[j]时，前一项表示s[i]保留时的个数，后一项表示s[i]消除时的个数
+                        # 当s[i] != t[j]时，dp[i][j] = dp[i-1][j]
                         dp[i][j] = dp[i-1][j-1] + dp[i-1][j] if s[i] == t[j] else dp[i-1][j]
-                        print(i, j, s[i], t[j], dp[i][j])
 
         return dp[m-1][n-1]
-
-s = "rabbbit"
-t = "rabbit"
-print(Solution().numDistinct(s, t))

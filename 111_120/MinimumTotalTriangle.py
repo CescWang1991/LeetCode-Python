@@ -15,18 +15,10 @@ class Solution:
         n = len(triangle)
 
         for i in range(1, n):
-            dp.append(dp[-1] + triangle[i][-1])
-            for j in reversed(range(1, i)):
+            dp.append(dp[-1] + triangle[i][-1])     # 在末尾添加最后一个元素的路径和
+            for j in reversed(range(1, i)):         # 同#119，从后往前遍历
                 dp[j] = min(dp[j-1], dp[j]) + triangle[i][j]
-            if i >= 1:
+            if i >= 1:                              # 更新第一个元素
                 dp[0] = dp[0] + triangle[i][0]
 
         return min(dp)
-
-triangle = [
-     [2],
-    [3,4],
-   [6,5,7],
-  [4,1,8,3]
-]
-Solution().minimumTotal(triangle)
