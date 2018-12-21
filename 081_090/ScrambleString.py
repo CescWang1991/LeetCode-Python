@@ -1,8 +1,8 @@
-# 87. Scramble String
-# 建立hash table记录两个str中字母的数目，通过比较两个hash table返回是否相等
-# 从i=1开始遍历，将s1分为左右子树，s2则可以有i和n-i两种分法，递归比较是s1和s2的子树
+# 087. Scramble String
 
 class Solution:
+    # 建立hash table记录两个str中字母的数目，通过比较两个hash table返回是否相等
+    # 从i=1开始遍历，将s1分为左右子树，s2则可以有i和n-i两种分法，递归比较是s1和s2的子树
     def isScramble(self, s1, s2):
         """
         :type s1: str
@@ -17,7 +17,7 @@ class Solution:
 
         dict_1 = self.buidDict(s1)
         dict_2 = self.buidDict(s2)
-        for k, v in dict_1.items():
+        for k, v in dict_1.items():     # 先直接比较两个hash表，如果不相同直接返回False
             if k not in dict_2.keys() or v != dict_2[k]:
                 return False
 
@@ -39,8 +39,3 @@ class Solution:
                 dict[s] += 1
 
         return dict
-
-
-s1 = "great"
-s2 = "rgeat"
-print(Solution().isScramble(s1, s2))

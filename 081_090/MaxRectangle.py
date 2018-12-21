@@ -2,6 +2,7 @@
 # 85. Maximal Rectangle
 
 class Solution:
+    # https://www.cnblogs.com/ganganloveu/p/4148303.html
     def largestRectangleArea(self, nums):
         if not nums:
             return 0
@@ -9,13 +10,14 @@ class Solution:
         nums.append(0)
         length = len(nums)
         m = 0
-        stack = []
+        stack = []      # 维持一个堆栈，堆栈中的元素按从小到大排序
         i = 0
+        # 由于height本身不是升序的，我们需要构造升序的stack。
         while i < length:
-            if not stack or nums[i] >= nums[stack[-1]]:
+            if not stack or nums[i] >= nums[stack[-1]]:     # 若当前高度大于栈顶，将其加入堆栈
                 stack.append(i)
                 i += 1
-            else:
+            else:                                           # 否则弹出栈顶元素，计算栈顶到i之前的面积
                 h = nums[stack[-1]]
                 stack.pop()
                 if not stack:
@@ -42,11 +44,3 @@ class Solution:
             maxArea = max(self.largestRectangleArea(height), maxArea)
 
         return maxArea
-
-matrix = [
-  ["1","0","1","0","0"],
-  ["1","0","1","1","1"],
-  ["1","1","1","1","1"],
-  ["1","0","0","1","0"]
-]
-print(Solution().maximalRectangle(matrix))

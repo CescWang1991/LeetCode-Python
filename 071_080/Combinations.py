@@ -1,5 +1,4 @@
-# dynamic programming
-# DP(n,k) = DP(n-1,k) + DP(n-1,k-1)
+# 077. Combinations
 
 class Solution:
     def combine(self, n, k):
@@ -12,15 +11,12 @@ class Solution:
         if n < k:
             return lists
 
-        for s in reversed(range(k, n+1)):
+        for s in reversed(range(k, n+1)):   # 从后往前遍历，这里s是最后一位所有可能的数(s >= k)
             if k == 1:
                 lists.append([s])
             else:
-                for l in self.combine(s-1, k-1):
+                for l in self.combine(s-1, k-1):    # l是s之前的数的列表，注意这里的所有数组都是递增的
                     l += [s]
                     lists.append(l)
 
         return lists
-
-
-print(Solution().combine(4, 2))

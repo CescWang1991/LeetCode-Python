@@ -1,4 +1,4 @@
-# 78. Subsets
+# 078. Subsets
 # subset(n) = subset(n-1) + subset(n-1).append(n)
 
 class Solution:
@@ -10,17 +10,12 @@ class Solution:
         lists = []
         if not nums:
             return [[]]
-
-        while nums:
-            term = nums[-1]
-            nums.pop(-1)
-            for list in self.subsets(nums):
-                lists.append(list)
-                temp = list + [term]
-                lists.append(temp)
+        # 对于nums的元素，分为取到和没取到两种情况
+        term = nums[-1]
+        nums.pop(-1)        # 取出数组的最后一个元素
+        for list in self.subsets(nums):
+            lists.append(list)      # 这里的子集没有取到term
+            temp = list + [term]
+            lists.append(temp)      # 这里的自己取到了term
 
         return lists
-
-
-nums = [1, 2, 3, 4]
-print(Solution().subsets(nums))

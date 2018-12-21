@@ -1,6 +1,6 @@
-# 74. Search a 2D Matrix
+# 074. Search a 2D Matrix
 # 240. Search a 2D Matrix II
-# 用二分法先查询target在第一列(matrix[i][0])中的位置，然后在相应的排中搜索target是否存在于matrix[i][j]
+# Solution2：用二分法先查询target在第一列(matrix[i][0])中的位置，然后在相应的排中搜索target是否存在于matrix[i][j]
 
 class Solution:
     def searchMatrix(self, matrix, target):
