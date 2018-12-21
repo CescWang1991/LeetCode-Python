@@ -1,6 +1,5 @@
-# 99. Recover Binary Search Tree
+# 099. Recover Binary Search Tree
 
-# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -15,7 +14,7 @@ class Solution:
         :rtype: void Do not return anything, modify root in-place instead.
         """
         order = []
-        self.dfs(root, order)   # 用递归的方法获取中序遍历
+        self.dfs(root, order)   # 用递归的方法获取中序遍历，这里的order存放的是树节点，而不是值
         start = 0
         end = len(order) - 1
         while start < end:
@@ -25,9 +24,7 @@ class Solution:
                 end -= 1
             else:
                 # 找到错误的两个节点，交换其val
-                temp = order[start].val
-                order[start].val = order[end].val
-                order[end].val = temp
+                order[start].val, order[end].val = order[end].val, order[start].val
                 break
 
     def dfs(self, node, order):

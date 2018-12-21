@@ -42,6 +42,3 @@ class Solution:
                         ips.append(s[:3] + "." + ip)
 
         return ips
-
-
-print(Solution().restoreIpAddresses("255255255255"))

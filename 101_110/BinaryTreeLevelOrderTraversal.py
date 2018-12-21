@@ -60,3 +60,24 @@ class Solution:
                 queue.append((curr[0].right, curr[1]+1))
 
         return order
+
+class Solution2:
+    # 递归方法，采用dfs，在ans相应的行添加遍历到的节点(107同理可得)
+    def levelOrder(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+        ans = []
+        self.level(root, ans, 1)
+        return ans
+
+    def level(self, root, ans, level):
+        if not root:
+            return
+        if not ans or len(ans) < level:     # 添加新的一行
+            ans.append([root.val])
+        else:
+            ans[level-1].append(root.val)
+        self.level(root.left, ans, level+1)
+        self.level(root.right, ans, level+1)

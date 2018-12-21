@@ -1,4 +1,4 @@
-# 98. Valid Binary Search Tree
+# 098. Valid Binary Search Tree
 
 class TreeNode:
     def __init__(self, x):

@@ -1,6 +1,5 @@
 # 92. Reverse Linked List II
 
-# Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
         self.val = x
@@ -19,7 +18,7 @@ class Solution:
         prev = ListNode(None)
         prev.next = head
         dummy.next = prev
-        while pos < m:
+        while pos < m:          # 经过m步，找到待反转的头节点
             if not prev.next:
                 return dummy.next
             else:
@@ -28,6 +27,7 @@ class Solution:
 
         stack = []
         curr = prev
+        # 链表的翻转参见 # 206. Reverse List
         while pos >= m and pos <= n:
             stack.append(curr.next.val)
             curr = curr.next

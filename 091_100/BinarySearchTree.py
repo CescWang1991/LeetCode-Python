@@ -26,7 +26,7 @@ class Solution:
 
         return res[n]
 
-
+    # 095解法
     def generateTrees(self, n):
         """
         :type n: int
@@ -44,7 +44,7 @@ class Solution:
 
         trees = []
 
-        for val in range(s, e + 1):
+        for val in range(s, e + 1):     # 以val位根节点，将s到e分为左右子树
             left = self.getTrees(s, val - 1)
             right = self.getTrees(val + 1, e)
             for leftTree in left:
@@ -55,6 +55,3 @@ class Solution:
                     trees.append(root)
 
         return trees
-
-
-print(Solution().generateTrees(3))

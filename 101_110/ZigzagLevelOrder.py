@@ -45,3 +45,28 @@ class Solution:
                 level +=1
 
         return lists
+
+class Solution2:
+    # 递归调用方法，采用DFS，level记录当前节点的层数，类似 #102与 #107的方法
+    # 如果flag为false，表示正序输出，使用add，否则使用addFirst，反向输出。
+    def zigzagLevelOrder(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+        ans = []
+        self.levelRecur(root, ans, 1, False)
+        return ans
+
+    def levelRecur(self, root, ans, level, reverse):
+        if not root:
+            return
+        if len(ans) < level:
+            ans.append([root.val])
+        else:
+            if reverse:
+                ans[level-1].insert(0, root.val)
+            else:
+                ans[level-1].append(root.val)
+        self.levelRecur(root.left, ans, level+1, not reverse)
+        self.levelRecur(root.right, ans, level + 1, not reverse)

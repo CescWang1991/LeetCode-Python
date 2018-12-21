@@ -1,4 +1,4 @@
-# 97. Interleaving String
+# 097. Interleaving String
 # Dynamic Programming: dp[i][j]表示s1的前i位与s2的前j位能否匹配s3的前i+j位
 # dp[i][j] = (dp[i-1][j] && s1[i-1] == s3[i-1+j]) || (dp[i][j-1] && s2[j-1] == s3[j-1+i])
 
@@ -28,6 +28,3 @@ class Solution:
                     dp[i][j] = (dp[i][j-1] and s2[j-1] == s3[i+j-1]) or (dp[i-1][j] and s1[i-1] == s3[i+j-1])
 
         return dp[m-1][n-1]
-
-
-print(Solution().isInterleave("aabcc", "dbbca", "aadbbcbcac"))
