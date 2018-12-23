@@ -24,23 +24,12 @@ class Solution:
             for j in range(i, length):
                 if i == j:
                     continue
-                if points[i].x == points[j].x and points[i].y != points[j].y:
+                if points[i].x == points[j].x and points[i].y != points[j].y:   # 在一条垂直于x轴的直线上
                     maps['inf'] += 1
-                elif points[i].x != points[j].x:
+                elif points[i].x != points[j].x:        # 算出斜率，加入到字典中计数
                     k = Decimal(points[i].y - points[j].y) / Decimal(points[i].x - points[j].x)
-                    if k not in maps:
-                        maps[k] = 1
-                    else:
-                        maps[k] += 1
+                    maps[k] = maps.get(k, 0) + 1
                 else:
                     same += 1
             max_points = max(max_points, max(maps.values()) + same)
         return max_points
-
-
-n = [[0, 0], [94911151, 94911150], [94911152, 94911151]]
-points = []
-for i in n:
-    point = Point(i[0], i[1])
-    points.append(point)
-print(Solution().maxPoints(points))

@@ -8,7 +8,7 @@ class Solution:
         """
         n = len(tokens)
         i = 0
-        while i < n:
+        while i < n:        # 遍历tokens，找到运算符，取出运算符前面两个元素，三者计算，将计算结果替换这三个元素。
             if tokens[i] in ["+", "-", "*", "/"]:
                 first = int(tokens[i-2])
                 second = int(tokens[i-1])
@@ -24,14 +24,15 @@ class Solution:
                 tokens[i - 2] = str(res)
                 del tokens[i]
                 del tokens[i-1]
-                print(tokens)
                 i -= 1
                 n = len(tokens)
             else:
                 i += 1
         return int(tokens[0])
 
-    def evalStack(self, tokens):
+
+class Solution2:
+    def evalRPN(self, tokens):
         stack = []
         for token in tokens:
             if token in ["+", "-", "*", "/"]:
@@ -52,6 +53,3 @@ class Solution:
             else:
                 stack.append(token)
         return int(stack[-1])
-
-
-print(Solution().evalStack(["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]))

@@ -1,4 +1,4 @@
-# 147. Insertion Sort List
+# 148. Sort List
 # 归并排序(LeetCode超时)
 
 class ListNode:
@@ -21,7 +21,7 @@ class Solution:
         mid.next = None
 
         return self.merge(self.sortList(left), self.sortList(right))
-
+    # 快慢指针找到中点
     def getMiddle(self, head):
         if not head or head.next:
             return head
