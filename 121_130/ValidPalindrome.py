@@ -28,5 +28,3 @@ class Solution:
                 j -= 1
 
         return isValid
-
-print(Solution().isPalindrome("0P"))

@@ -68,5 +68,3 @@ class Solution:
                     cut[i] = min(cut[i], 1 + cut[j+1])
 
         return cut[0]
-
-print(Solution().minCut("aabbaabb"))

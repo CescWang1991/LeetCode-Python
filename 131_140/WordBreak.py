@@ -18,13 +18,13 @@ class Solution:
         dp[0] = True
         for i in range(length):
             for j in reversed(range(i+1)):
-                #从长度为i的单词末尾向前寻找出现在dict中的单词
+                # 从长度为i的单词末尾向前寻找出现在dict中的单词
                 sub = s[j:i+1]
                 if sub in wordDict and dp[j]:
                     dp[i+1] = True
                     break
 
-        return dp
+        return dp[length]
 
     # Backtracking方法：Leetcode超时
     def wordSplit(self, s, wordDict):
@@ -95,3 +95,29 @@ class Solution:
                             res.append(str+" "+word)
 
         return res
+
+class Solution2:
+    def wordBreak(self, s, wordDict):
+        """
+        :type s: str
+        :type wordDict: List[str]
+        :rtype: List[str]
+        """
+        if not s:
+            return []
+
+        n = len(s)
+        maxLen = max(list(map(lambda x:len(x), wordDict)))
+        # dp[i]记录了s的前i位的workBreak解的最后一个单词的集合，若不存在则dp[i]为空集
+        dp = []
+        for i in range(n):
+            dp.append([])
+            for j in reversed(range(i-maxLen, i+1)):
+                if s[j:i+1] in wordDict:
+                    if j == 0:
+                        dp[i].append(s[j:i+1])
+                    elif dp[j-1]:
+                        for prev in dp[j-1]:
+                            dp[i].append(prev +" "+s[j:i+1])
+            print(i, len(dp[i]))
+        return dp[n-1]

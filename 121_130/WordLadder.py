@@ -83,8 +83,3 @@ class Solution:
             del queue[0]
 
         return 0
-
-beginWord = "red"
-endWord = "tax"
-wordList = ["ted","tex","red","tax","tad","den","rex","pee"]
-print(Solution().findLadders(beginWord, endWord, wordList))

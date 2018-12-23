@@ -36,7 +36,3 @@ class Solution:
             longest = max(longest, length)
 
         return longest
-
-
-nums = [1, 2, 0, 1]
-print(Solution().longestConsecutive(nums))

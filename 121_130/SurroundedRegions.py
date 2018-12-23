@@ -93,16 +93,3 @@ class Solution:
         if dict.get(right) == 0:
             del dict[right]
             self.dfs(right, dict)
-
-
-board = [
-     ["O", "O", "O", "O", "X", "X"],
-     ["O", "O", "O", "O", "O", "O"],
-     ["O", "X", "O", "X", "O", "O"],
-     ["O", "X", "O", "O", "X", "O"],
-     ["O", "X", "O", "X", "O", "O"],
-     ["O", "X", "O", "O", "O", "O"]
-]
-Solution().solveUnionFind(board)
-for line in board:
-    print(line)
