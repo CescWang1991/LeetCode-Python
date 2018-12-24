@@ -153,6 +153,8 @@
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/151_160/FindMin.py) | Medium | Binary Search
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/151_160/FindMin.py) | Hard | Binary Search
 | 155 | [Min Stack](https://leetcode-cn.com/problems/min-stack/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/151_160/MinStack.py) | Easy | Stack
+| 156 | Binary Tree Upside Down* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/151_160/BinaryTreeUpsideDown.py) | Medium | Tree/ DFS
+| 159 | Longest Substring with At Most Two Distinct Characters* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/151_160/LongestSubstring.py) | Medium | Hash Table/ Array
 | 160 | [Intersection of Two Linked List](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/151_160/IntersectionTwoLinkedList.py) | Easy | Linked List
 | 162 | [Find Peak Element](https://leetcode-cn.com/problems/find-peak-element/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/161_170/FindPeakElement.py) | Medium | Binary Search
 | 164 | [Maximum Gap](https://leetcode-cn.com/problems/maximum-gap/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/161_170/MaximumGap.py) | Hard | Sorting
@@ -214,14 +216,14 @@
 | 240 | [Search a 2D Matrix II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/71_80/SearchMatrix.py) | Medium | Binary Search
 | 241 | [Different Ways to Add Parentheses](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/AddParentheses.py) | Medium | Divide and Conquer
 | 242 | [Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/ValidAnagram.py) | Easy | Hash Table
-| 243 | Shortest Word Distance | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/ShortestWordDistance.py) | Easy | Array
-| 244 | Shortest Word Distance II | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/ShortestWordDistance.py) | Medium | Array
-| 245 | Shortest Word Distance III | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/ShortestWordDistance.py) | Medium | Array
-| 246 | Strobogrammatic Number | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/StrobogrammaticNumber.py) | Easy | Hash Table
-| 247 | Strobogrammatic Number II | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/StrobogrammaticNumber.py) | Easy | Hash Table
-| 248 | Strobogrammatic Number III | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/StrobogrammaticNumber.py) | Medium | Hash Table
-| 249 | Group Shifted Strings | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/GroupShiftedStrings.py) | Medium | Hash Table
-| 250 | Count Univalue Subtrees | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/CountUnivalueSubtrees.py) | Medium | Tree/ DFS
+| 243 | Shortest Word Distance* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/ShortestWordDistance.py) | Easy | Array
+| 244 | Shortest Word Distance II* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/ShortestWordDistance.py) | Medium | Array
+| 245 | Shortest Word Distance III* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/ShortestWordDistance.py) | Medium | Array
+| 246 | Strobogrammatic Number* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/StrobogrammaticNumber.py) | Easy | Hash Table
+| 247 | Strobogrammatic Number II* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/StrobogrammaticNumber.py) | Easy | Hash Table
+| 248 | Strobogrammatic Number III* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/StrobogrammaticNumber.py) | Medium | Hash Table
+| 249 | Group Shifted Strings* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/GroupShiftedStrings.py) | Medium | Hash Table
+| 250 | Count Univalue Subtrees* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/CountUnivalueSubtrees.py) | Medium | Tree/ DFS
 
 
 ## Solutions for problemsets in Database on LeetCode
