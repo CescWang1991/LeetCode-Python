@@ -21,3 +21,32 @@ class Solution:
             else:
                 r -= 1
         return []
+
+# 170. Two Sum III - Data structure design
+
+# Design and implement a TwoSum class. It should support the following operations: add and find.
+
+# add - Add the number to an internal data structure.
+# find - Find if there exists any pair of numbers which sum is equal to the value.
+
+# For example,
+# add(1); add(3); add(5);
+# find(4) -> true
+# find(7) -> false
+
+class TwoSum:
+    def __init__(self):
+        self.nums = []
+
+    def add(self, num):     # 按顺序将num加入nums(插入排序或者二分排序)
+        if not self.nums or num > self.nums[-1]:
+            self.nums.append(num)
+        else:
+            for i in range(len(self.nums)):
+                if num <= self.nums[i]:
+                    self.nums.insert(i, num)
+                    break
+
+    def find(self, target):     # 运用第167方法返回是否存在
+        index = Solution().twoSum(self.nums, target)
+        return index and len(index) == 2

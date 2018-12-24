@@ -19,7 +19,6 @@ class Solution:
                 return -1
 
         if len(version1) > len(version2) and version1[n:] != [0] * (len(version1) - n):
-            print(version1[n:])
             return 1
         elif len(version1) < len(version2) and version2[n:] != [0] * (len(version2) - n):
             return -1

@@ -1,7 +1,7 @@
 # 164. Maximum Gap
-# 利用桶排序
 
 class Solution(object):
+    # 利用桶排序
     def maximumGap(self, nums):
         """
         :type nums: List[int]
@@ -9,15 +9,20 @@ class Solution(object):
         """
         if not nums or len(nums) == 1:
             return 0
-        gap = self.bucketSort(nums)
+        gap = 0
+        nums = self.bucketSort(nums)
+        for i in range(1, len(nums)):
+            gap = max(gap, nums[i] - nums[i-1])
+
         return gap
+
 
     def bucketSort(self, nums):
         """
         :type nums: List[int]
         :rtype: int
         """
-        result = []
+        # 找到nums中的最大值和最小值
         maxVal = nums[0]
         minVal = nums[0]
         for i in range(1,len(nums)):
@@ -29,22 +34,17 @@ class Solution(object):
         bucket = [[] for i in range(bucketCount)]
         for i in range(len(nums)):
             index = (nums[i] - minVal) // bucketLength
-            bucket[index].append(nums[i])
-
-        maxGap = 0
-        last = None
+            if not bucket[index] or nums[i] > bucket[index][-1]:
+                bucket[index].append(nums[i])
+            else:
+                for j in range(len(bucket[index])):
+                    if nums[i] <= bucket[index][j]:
+                        bucket[index].insert(j, nums[i])
+                        break
+        res = []
         for i in range(bucketCount):
-            if bucket[i]:
-                bucket[i] = sorted(bucket[i])
-                for j in range(len(bucket[i])):
-                    print(i, j, bucket[i])
-                    if j == 0:
-                        if last:
-                            maxGap = max(maxGap, bucket[i][j] - last)
-                    if len(bucket[i]) > 1:
-                        maxGap = max(maxGap, bucket[i][j] - bucket[i][j-1])
-                        if j == len(bucket[i]) - 1:
-                              last = bucket[i][j]
-                    else:
-                        last = bucket[i][j]
-        return maxGap
+            res += bucket[i]
+
+        return res
+
+print(Solution().maximumGap([1,1,2,4,5,6,7]))

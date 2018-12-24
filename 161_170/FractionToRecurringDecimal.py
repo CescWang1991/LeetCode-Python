@@ -1,6 +1,5 @@
 # 166. Fraction to Recurring Decimal
 
-
 class Solution:
     def fractionToDecimal(self, numerator, denominator):
         """

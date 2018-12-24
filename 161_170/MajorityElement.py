@@ -61,6 +61,3 @@ class Solution2:
             res.append(major2)
 
         return res
-
-
-print(Solution2().majorityElement([1,1,1,2,2,3,3,3]))

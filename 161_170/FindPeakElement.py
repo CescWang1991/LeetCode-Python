@@ -18,11 +18,11 @@ class Solution(object):
 
         while lo <= hi:
             mid = (lo + hi) // 2
-            if mid == 0 and nums[mid] > nums[mid+1]:
+            if mid == 0 and nums[mid] > nums[mid+1]:        # mid在最左侧
                 return 0
-            if mid == n - 1 and nums[mid] > nums[mid-1]:
+            if mid == n - 1 and nums[mid] > nums[mid-1]:    # mid在最右侧
                 return n-1
-            if nums[mid] > nums[mid-1] and nums[mid] > nums[mid+1]:
+            if nums[mid] > nums[mid-1] and nums[mid] > nums[mid+1]: # mid符合峰值条件，直接返回
                 return mid
 
             if nums[mid] < nums[mid+1]:
