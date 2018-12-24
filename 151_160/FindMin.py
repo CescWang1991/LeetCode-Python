@@ -14,10 +14,10 @@ class Solution:
         hi = len(nums) - 1
         while lo < hi:
             mid = (lo + hi) // 2
-            if nums[mid] > nums[hi]:
+            if nums[mid] > nums[hi]:    # 此时左边有序，则断点在右边
                 lo = mid + 1
-            else:
-                hi = mid
+            else:                       # 此时右边有序，则断点在左边
+                hi = mid    # 由于mid可能正好是最小值，所以不能减一
 
         return nums[lo]
 

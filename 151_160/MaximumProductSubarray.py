@@ -20,10 +20,6 @@ class Solution:
             minLast = minCurr
             maxCurr = max(nums[i], maxLast*nums[i], minLast*nums[i])
             minCurr = min(nums[i], maxLast*nums[i], minLast*nums[i])
-            print(nums[i], maxCurr, minCurr)
             maxPro = max(maxPro, maxCurr)
 
         return maxPro
-
-
-print(Solution().maxProduct([-4, -3, -2]))
