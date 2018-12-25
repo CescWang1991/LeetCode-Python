@@ -171,6 +171,7 @@
 | 173 | [Binary Search Tree Iterator](https://leetcode-cn.com/problems/binary-search-tree-iterator/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/171_180/BSTIterator.py) | Medium | Tree/ Stack
 | 174 | [Dungeon Game](https://leetcode-cn.com/problems/dungeon-game/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/171_180/DungeonGame.py) | Hard | DP
 | 179 | [Largest Number](https://leetcode-cn.com/problems/largest-number/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/171_180/LargestNumber.py) | Medium | Sorting
+| 186 | Reverse Words in a String II* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/151_160/ReverseWords.py) | Easy | String
 | 187 | [Repeated DNA Sequences](https://leetcode-cn.com/problems/repeated-dna-sequences/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/181_190/RepeatedDNASequences.py) | Medium | Hash Table
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/121_130/BuyAndSellStock.py) | Hard | DP
 | 189 | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/181_190/RotateArray.py) | Easy | Array
@@ -227,6 +228,11 @@
 | 248 | Strobogrammatic Number III* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/StrobogrammaticNumber.py) | Medium | Hash Table
 | 249 | Group Shifted Strings* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/GroupShiftedStrings.py) | Medium | Hash Table
 | 250 | Count Univalue Subtrees* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/241_250/CountUnivalueSubtrees.py) | Medium | Tree/ DFS
+| 251 | Flatten 2D Vector* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/Flatten2DVector.py) | Easy | Array
+| 252 | Meeting Rooms* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/MeetingRooms.py) | Easy | Sorting
+| 253 | Meeting Rooms II* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/MeetingRooms.py) | Medium | Heap
+| 254 | Factor Combinations* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/FactorCombinations.py) | Medium | DFS
+| 255 | Verify Preorder Sequence in Binary Search Tree* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/VerifyPreorderSequence.py) | Hard | Tree/ DFS
 
 
 ## Solutions for problemsets in Database on LeetCode
