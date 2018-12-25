@@ -30,5 +30,3 @@ class Solution:
             num += (ord(s[length-i-1]) - 64) * (26**i)
 
         return num
-
-print(Solution().titleToNumber("ZY"))

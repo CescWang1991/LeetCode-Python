@@ -20,5 +20,3 @@ class Solution:
                     res.append(substr)
 
         return res
-
-print(Solution().findRepeatedDnaSequences("AAAAAAAAAAAA"))
