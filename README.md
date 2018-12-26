@@ -233,6 +233,15 @@
 | 253 | Meeting Rooms II* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/MeetingRooms.py) | Medium | Heap
 | 254 | Factor Combinations* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/FactorCombinations.py) | Medium | DFS
 | 255 | Verify Preorder Sequence in Binary Search Tree* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/VerifyPreorderSequence.py) | Hard | Tree/ DFS
+| 256 | Paint House* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/PaintHouse.py) | Medium | DP
+| 257 | [Binary Tree Paths](https://leetcode-cn.com/problems/binary-tree-paths/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/BinaryTreePaths.py) | Easy | Tree/ DFS
+| 258 | [Add Digits](https://leetcode-cn.com/problems/add-digits/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/AddDigits.py) | Easy | Math
+| 259 | 3Sum Smaller* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/ThreeSumSmaller.py) | Medium | Array/ Two Pointers
+| 260 | [Single Number III](https://leetcode-cn.com/problems/single-number-iii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/131_140/SingleNumber.py) | Medium | Bit Manipulation
+| 261 | Graph Valid Tree* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/GraphValidTree.py) | Medium | Union Find
+| 263 | [Ugly Number](https://leetcode-cn.com/problems/ugly-number/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/UglyNumber.py) | Easy | Math
+| 264 | [Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/UglyNumber.py) | Medium | Math
+| 265 | Paint House II* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/PaintHouse.py) | Hard | DP
 
 
 ## Solutions for problemsets in Database on LeetCode
