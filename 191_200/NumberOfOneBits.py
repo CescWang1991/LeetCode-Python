@@ -8,6 +8,3 @@ class Solution(object):
         """
         b = list('{:b}'.format(n))
         return b.count('1')
-
-
-print(Solution().hammingWeight(5345))

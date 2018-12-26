@@ -33,3 +33,26 @@ class Solution:
             del queue[0]
 
         return list(map(lambda x:x[0], res))
+
+class Solution2:
+    # 利用dfs，若res的长度小于当前level，我们新添加一层，否则继续遍历，因为我们总是先遍历右子树，所以新添加的一行总是该
+    # 层最右边的节点
+    def rightSideView(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        self.res = []
+        self.dfs(root, 1)
+        return self.res
+
+    def dfs(self, root, level):
+        if not root:
+            return
+        if not self.res or len(self.res) < level:   # 添加新的一行
+            self.res.append(root.val)
+        if root.right:                              # 先遍历右子树
+            self.dfs(root.right, level+1)
+        if root.left:                               # 再遍历左子树
+            self.dfs(root.left, level+1)
+        return

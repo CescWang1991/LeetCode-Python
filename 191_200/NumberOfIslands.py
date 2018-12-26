@@ -42,11 +42,3 @@ class Solution:
             if grid[x+1][y] == "1":
                 grid[x+1][y] = "0"
                 self.dfs(x+1, y, grid)
-
-
-grid = [
-    ["1"],
-    ["0"],
-    ["1"]
-]
-print(Solution().numIslands(grid))
