@@ -191,11 +191,11 @@
 | 209 | [Minimum Size Subarray Sum](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/MinSubArrayLen.py) | Medium | Two Pointers
 | 210 | [Course Schedule II](https://leetcode-cn.com/problems/course-schedule-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/201_210/CourseSchedule.py) | Medium | DFS/ BFS/ Graph
 | 211 | [Add and Search Word - Data Structure Design](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/AddAndSearchWord.py) | Medium | Trie
-| 212 | [Word Search II](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/WordSearch.py) | Scala | Java | [Python](https://leetcode-cn.com/problems/word-search-ii/) | Hard | Trie/ Backtracking
+| 212 | [Word Search II](https://leetcode-cn.com/problems/word-search-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/WordSearch.py) | Hard | Trie/ Backtracking
 | 213 | [House Robber II](https://leetcode-cn.com/problems/house-robber-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/HouseRobber.py) | Medium | DP
 | 214 | [Shortest Palindrome](https://leetcode-cn.com/problems/shortest-palindrome/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/ShortestPalindrome.py) | Hard | KMP
 | 215 | [Kth Largest Element in an Array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/KthLargestElement.py) | Medium | Heap
-| 216 | [Combination Sum III](https://leetcode-cn.com/problems/combination-sum-iii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/31_40/CombinationSum.py) | Medium | Backtracking
+| 216 | [Combination Sum III](https://leetcode-cn.com/problems/combination-sum-iii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/031_040/CombinationSum.py) | Medium | Backtracking
 | 217 | [Contains Duplicates](https://leetcode-cn.com/problems/contains-duplicate/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/ContainDuplicates.py) | Easy | Hash Table
 | 218 | [The Skyline Problem](https://leetcode-cn.com/problems/the-skyline-problem/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/TheSkylineProblem.py) | Hard | Heap/ Binary Indexed Tree/ Segment Tree
 | 219 | [Contains Duplicates II](https://leetcode-cn.com/problems/contains-duplicate-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/211_220/ContainDuplicates.py) | Easy | Hash Table
@@ -242,6 +242,11 @@
 | 263 | [Ugly Number](https://leetcode-cn.com/problems/ugly-number/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/UglyNumber.py) | Easy | Math
 | 264 | [Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/UglyNumber.py) | Medium | Math
 | 265 | Paint House II* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/251_260/PaintHouse.py) | Hard | DP
+| 266 | Palindrome Permutation* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/PalindromePermutation.py) | Easy | Hash Table
+| 267 | Palindrome Permutation II | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/PalindromePermutation.py) | Medium | Hash Table/ Backtracking
+| 268 | [Missing Number](https://leetcode-cn.com/problems/missing-number/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/MissingNumber.py) | Easy | Bit Manipulation
+| 269 | Alien Dictionary* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/AlienDictionary.py) | Hard | Graph/ DFS
+| 270 | Closest Binary Search Tree Value* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/ClosestBinarySearchTreeValue.py) | Easy | Tree/ DFS
 
 
 ## Solutions for problemsets in Database on LeetCode
