@@ -35,3 +35,22 @@ class Solution(object):
                     multi.append([nums[i]] + list)
 
         return multi
+
+class Solution2:
+    def permuteUnique(self, nums):
+        """
+        :type s: str
+        :type ans: str
+        """
+        self.res = []
+        self.dfs(nums, [])
+        return self.res
+
+    def dfs(self, nums, ans):
+        if not nums:
+            self.res.append(ans)
+            return
+        for i in range(len(nums)):
+            if nums[i] not in nums[:i]:
+                self.dfs(nums[:i]+nums[i+1:], ans + [nums[i]])
+        return

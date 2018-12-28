@@ -61,5 +61,3 @@ class Solution2:
                 j += 1
             table[i] = j
         return table
-
-Solution2().shortestPalindrome("ababc")

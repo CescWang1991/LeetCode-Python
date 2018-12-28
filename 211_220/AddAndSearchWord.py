@@ -61,11 +61,3 @@ class WordDictionary:
                 if self.searchNode(v, word[1:]):
                     return True
             return False
-
-
-if __name__ == "__main__":
-    w = WordDictionary()
-    w.addWord("ab")
-    w.addWord("...")
-    print(w.search("a"))
-    print(w.search("ab"))
