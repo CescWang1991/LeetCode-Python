@@ -247,6 +247,16 @@
 | 268 | [Missing Number](https://leetcode-cn.com/problems/missing-number/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/MissingNumber.py) | Easy | Bit Manipulation
 | 269 | Alien Dictionary* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/AlienDictionary.py) | Hard | Graph/ DFS
 | 270 | Closest Binary Search Tree Value* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/ClosestBinarySearchTreeValue.py) | Easy | Tree/ DFS
+| 271 | Encode and Decode Strings* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/271_280/EncodeDecodeStrings.py) | Medium | String
+| 272 | Closest Binary Search Tree Value II* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/261_270/ClosestBinarySearchTreeValue.py) | Hard | Tree/ DFS
+| 273 | [Integer to English Words](https://leetcode-cn.com/problems/integer-to-english-words/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/271_280/IntegerToEnglishWords.py) | Hard | String
+| 274 | [H-Index](https://leetcode-cn.com/problems/h-index/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/271_280/H-Index.py) | Medium | Sorting
+| 275 | [H-Index II](https://leetcode-cn.com/problems/h-index-ii/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/271_280/H-Index.py) | Medium | Binary Search
+| 276 | Paint Fence* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/271_280/PaintFence.py) | Easy | DP
+| 277 | Find the Celebrity* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/271_280/FindCelebrity.py) | Medium | Array
+| 278 | [First Bad Version](https://leetcode-cn.com/problems/first-bad-version/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/271_280/FirstBadVersion.py) | Easy | Binary Search
+| 279 | [Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/271_280/PerfectSquares.py) | Medium | BFS/ DP
+| 280 | Wiggle Sort* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/271_280/WiggleSort.py) | Medium | Array
 
 
 ## Solutions for problemsets in Database on LeetCode
