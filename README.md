@@ -257,6 +257,16 @@
 | 278 | [First Bad Version](https://leetcode-cn.com/problems/first-bad-version/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/271_280/FirstBadVersion.py) | Easy | Binary Search
 | 279 | [Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/271_280/PerfectSquares.py) | Medium | BFS/ DP
 | 280 | Wiggle Sort* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/271_280/WiggleSort.py) | Medium | Array
+| 281 | Zigzag Iterator* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/ZigzagIterator.py) | Medium | Array
+| 282 | [Expression Add Operators](https://leetcode-cn.com/problems/expression-add-operators/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/ExpressionAddOperators.py) | Hard | DFS
+| 283 | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/MoveZeroes.py) | Easy | Array/ Two Pointers
+| 284 | [Peeking Iterator](https://leetcode-cn.com/problems/peeking-iterator/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/PeekingIterator.py) | Medium | Design
+| 285 | Inorder Successor in BST* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/InorderSuccessorBST.py) | Medium | Tree/ DFS
+| 286 | Walls and Gates* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/WallsAndGates.py) | Medium | DFS
+| 287 | [Find the Duplicate Number](https://leetcode-cn.com/problems/find-the-duplicate-number/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/FindDuplicateNumber.py) | Medium | Binary Search/ Two Pointers
+| 288 | Unique Word Abbreviation* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/UniqueWordAbbreviation.py) | Easy | Hash Table
+| 289 | [Game Of Life](https://leetcode-cn.com/problems/game-of-life/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/GameOfLife.py) | Medium | Array
+| 290 | [Word Pattern](https://leetcode-cn.com/problems/word-pattern/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/WordPattern.py) | Easy | Hash Table
 
 
 ## Solutions for problemsets in Database on LeetCode
