@@ -20,5 +20,3 @@ class Solution:
         res[0] = right
 
         return res
-
-print(Solution().productExceptSelf([2,3,4,5]))

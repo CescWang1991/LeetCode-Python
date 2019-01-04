@@ -28,5 +28,3 @@ class Solution:
             return 0
         else:
             return h * v
-
-print(Solution().computeArea(-2, -2, 2, 2, 3, 3, 4, 4))

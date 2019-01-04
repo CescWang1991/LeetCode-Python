@@ -30,7 +30,7 @@ class Solution2:
         major1, count1 = 0, 0
         major2, count2 = 0, 0
         for num in nums:
-            if num == major1:      # 如果数组扫描到的数和当前majority2相等。
+            if num == major1:      # 如果数组扫描到的数和当前majority1相等。
                 count1 += 1
                 continue
             if num == major2:      # 如果数组扫描到的数和当前majority2相等。

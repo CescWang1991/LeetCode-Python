@@ -26,8 +26,8 @@ class Solution:
         elif root.val < minVal:
             return self.lowestCommonAncestor(root.right, p, q)
 
-
-    def lowestCommonAncestorBT(self, root, p, q):
+class Solution2:
+    def lowestCommonAncestor(self, root, p, q):
         """
         :type root: TreeNode
         :type p: TreeNode
@@ -37,8 +37,8 @@ class Solution:
         if not root or root == p or root == q:
             return root
         # 当root非空时，分别对其左右子树进行搜索，若left，right均非空，则root就是LCA。
-        left = self.lowestCommonAncestorBT(root.left, p, q)
-        right = self.lowestCommonAncestorBT(root.right, p, q)
+        left = self.lowestCommonAncestor(root.left, p, q)
+        right = self.lowestCommonAncestor(root.right, p, q)
         if left and right:
             return root
         # 当左右子树有一个为空时，LCA则在另一颗子树。
@@ -46,8 +46,3 @@ class Solution:
             return right
         if not right:
             return left
-
-
-intervals = [[2,4], [0,2], [3,6], [4,7]]
-intervals.sort()
-print(intervals)
