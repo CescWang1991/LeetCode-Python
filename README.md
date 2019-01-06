@@ -267,6 +267,16 @@
 | 288 | Unique Word Abbreviation* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/UniqueWordAbbreviation.py) | Easy | Hash Table
 | 289 | [Game Of Life](https://leetcode-cn.com/problems/game-of-life/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/GameOfLife.py) | Medium | Array
 | 290 | [Word Pattern](https://leetcode-cn.com/problems/word-pattern/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/WordPattern.py) | Easy | Hash Table
+| 291 | Word Pattern II* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/281_290/WordPattern.py) | Hard | Hash Table/ Backtracking
+| 292 | [Nim Game](https://leetcode-cn.com/problems/nim-game/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/NimGame.py) | Easy | Brainteaser
+| 293 | Flip Game* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/FlipGame.py) | Easy | String
+| 294 | Flip Game II* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/FlipGame.py) | Medium | Backtracking
+| 295 | [Find Median from Data Stream](https://leetcode-cn.com/problems/find-median-from-data-stream/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/FindMedianFromDataStream.py) | Hard | Heap
+| 296 | Best Meeting Point* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/BestMeetingPoint.py) | Medium | Array
+| 297 | [Serialize and Deserialize Binary Tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/SerializeDeserializeBinaryTree.py) | Hard | Tree
+| 298 | Binary Tree Longest Consecutive Sequence* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/BinaryTreeLongestConsecutiveSequence.py) | Medium | Tree/ DFS
+| 299 | [Bulls and Cows](https://leetcode-cn.com/problems/bulls-and-cows/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/BullsAndCows.py) | Medium | Hash Table
+| 300 | [Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/LongestIncreasingSubsequence.py) | DP/ Binary Search
 
 
 ## Solutions for problemsets in Database on LeetCode
