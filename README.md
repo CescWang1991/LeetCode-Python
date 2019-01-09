@@ -277,6 +277,16 @@
 | 298 | Binary Tree Longest Consecutive Sequence* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/BinaryTreeLongestConsecutiveSequence.py) | Medium | Tree/ DFS
 | 299 | [Bulls and Cows](https://leetcode-cn.com/problems/bulls-and-cows/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/BullsAndCows.py) | Medium | Hash Table
 | 300 | [Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/LongestIncreasingSubsequence.py) | Medium | DP/ Binary Search
+| 301 | [Remove Invalid Parentheses](https://leetcode-cn.com/problems/remove-invalid-parentheses/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/301_310/RemoveInvalidParentheses.py) | Hard | DFS
+| 302 | Smallest Rectangle Enclosing Black Pixels* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/301_310/SmallestRectangleEnclosingBlackPixels.py) | Hard | DFS
+| 303 | [Range Sum Query - Immutable](https://leetcode-cn.com/problems/range-sum-query-immutable/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/301_310/RangeSumQuery.py) | Easy | DP
+| 304 | [Range Sum Query 2D - Immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/301_310/RangeSumQuery.py) | Medium | DP
+| 305 | Number of Islands II* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/191_200/NumberOfIslands.py) | Hard | Union Find
+| 306 | [Additive Number](https://leetcode-cn.com/problems/additive-number/) | Scala | Java | [Python](https://leetcode-cn.com/problems/additive-number/) | Medium | Backtracking
+| 307 | [Range Sum Query - Mutable](https://leetcode-cn.com/problems/range-sum-query-mutable/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/301_310/RangeSumQuery.py) | Medium | Binary Indexed Tree/ Segment Tree
+| 308 | Range Sum Query 2D - Mutable* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/301_310/RangeSumQuery.py) | Medium | Binary Indexed Tree/ Segment Tree
+| 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/121_130/BuyAndSellStock.py) | Medium | DP
+| 310 | [Minimum Height Trees](https://leetcode-cn.com/problems/minimum-height-trees/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/301_310/MinimumHeightTrees.py) | Medium | BFS/ Graph
 
 
 ## Solutions for problemsets in Database on LeetCode
