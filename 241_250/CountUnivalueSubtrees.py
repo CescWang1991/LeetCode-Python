@@ -9,35 +9,29 @@ class Solution:
         :type root:
         :rtype: int
         """
-        res = [0]
-        self.dfs(root, res)
-        return res[0]
+        bol, res = self.dfs(root)
+        return res
 
-    # res作为一个list，可以当作全局变量使用
-    def dfs(self, root, res):
+    # dfs返回两个参数，第一个表示root含subtree的个数，第二个表示root是否为uni subtree
+    def dfs(self, root):
         """
         :type root: TreeNode
         :type res: list[int]
         :rtype: bool
         """
         if not root:
-            return True
+            return True, 0
         # 叶节点res直接加1，并返回True
         if not root.left and not root.right:
-            res[0] += 1
-            return True
+            return True, 1
 
-        left = self.dfs(root.left, res)
-        right = self.dfs(root.right, res)
+        left, leftVal = self.dfs(root.left)
+        right, rightVal = self.dfs(root.right)
         # 如果左右均为Univalue Subtrees(包含空树)
         if left and right:
-            # 列举出root不为Univalue Subtrees的情况，并返回False
-            if root.left and root.left.val != root.val:
-                return False
-            if root.right and root.right.val != root.val:
-                return False
-            # 否则，root为Univalue Subtrees，res加一并返回True
-            res[0] += 1
-            return True
+            # 列出root为Univalue Subtrees的所有情况
+            if (not root.left and root.val == root.left.val) or (not root.right and root.val == root.right.val) or \
+                    (root.val == root.left.val == root.right.val):
+                return True, 1
 
-        return False
+        return False, leftVal + rightVal

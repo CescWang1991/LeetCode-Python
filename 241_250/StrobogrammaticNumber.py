@@ -40,6 +40,7 @@ class Solution:
 class Solution2:
     # 先列举出外层的字符，即为outer，然后向里面的字符中间添加元素，递归调用函数，用n-2做参数，生成元素，然后运用笛卡儿积
     # 向每个outer的元素中间添加每个lining的元素。
+    # 这里有一种情况在于可能存在100001，我们在内圈递归是会出现0000这种，所以在第一次递归最外层没有"00"，后面的递归都加上
     def findStrobogrammatic(self, n):
         """
         :type n: int
@@ -47,12 +48,25 @@ class Solution2:
         """
         if n == 1:
             return ['0', '1', '8']
-        outer = ['11', '69', '88', '96']
+        if n == 2:
+            return ['11', '69', '88', '96']
+        res = []
+        for elem in self.find(n-2):
+            res.append('1' + elem + '1')
+            res.append('6' + elem + '9')
+            res.append('8' + elem + '8')
+            res.append('9' + elem + '6')
+        return res
+    # find返回头尾都是0的结果
+    def find(self, n):
+        if n == 1:
+            return ['0', '1', '8']
+        outer = ['00', '11', '69', '88', '96']
         if n == 2:
             return outer
 
         res = []
-        lining = self.findStrobogrammatic(n-2)
+        lining = self.find(n-2)
         for two in outer:
             for elem in lining:
                 res.append(two[0] + elem + two[1])
@@ -118,3 +132,32 @@ class Solution3:
                 res.append(two[0] + elem + two[1])
 
         return res
+
+class Solution4:
+    # 与第二题解法类似，在递归的过程中与low，high比较，然后更新count的值
+    def strobogrammaticInRange(self, low, high):
+        """
+        :type low: str
+        :type high: str
+        :rtype: int
+        """
+        self.res = 0
+        self.find(low, high, "")
+        self.find(low, high, "0")
+        self.find(low, high, "1")
+        self.find(low, high, "8")
+        return self.res
+
+    def find(self, low, high, curr):
+        if len(low) <= len(curr) <= len(high):
+            if len(curr) == len(high) and int(curr) > int(high):    # 当前值大于high
+                return
+            if int(low) <= int(curr) <= int(high) and curr[0] != "0":
+                self.res += 1
+        if len(high) - len(curr) <= 1:
+            return
+        self.find(low, high, "0" + curr + "0")
+        self.find(low, high, "1" + curr + "1")
+        self.find(low, high, "6" + curr + "9")
+        self.find(low, high, "8" + curr + "8")
+        self.find(low, high, "9" + curr + "6")

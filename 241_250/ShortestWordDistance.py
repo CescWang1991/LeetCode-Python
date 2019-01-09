@@ -96,11 +96,13 @@ class Solution3:
     def shortestDistance(self, words, word1, word2):
         if not words:
             return 0
-        pos1, pos2 = -1, -1
-        dist = len(words) - 1
+        pos1, pos2 = len(words), -len(words)
+        dist = float('Inf')
         for i in range(len(words)):
+            # 当word1和word2相等的情况，我们用p1来保存p2的结果，p2赋为当前的位置i
             if words[i] == word1:
                 pos1 = pos2 if word1 == word2 else i
+            # 如果word1和word2不相等，则还跟原来的做法一样
             if words[i] == word2:
                 pos2 = i
             dist = min(dist, abs(pos1 - pos2))

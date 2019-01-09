@@ -276,7 +276,7 @@
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/SerializeDeserializeBinaryTree.py) | Hard | Tree
 | 298 | Binary Tree Longest Consecutive Sequence* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/BinaryTreeLongestConsecutiveSequence.py) | Medium | Tree/ DFS
 | 299 | [Bulls and Cows](https://leetcode-cn.com/problems/bulls-and-cows/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/BullsAndCows.py) | Medium | Hash Table
-| 300 | [Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/LongestIncreasingSubsequence.py) | DP/ Binary Search
+| 300 | [Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/291_300/LongestIncreasingSubsequence.py) | Medium | DP/ Binary Search
 
 
 ## Solutions for problemsets in Database on LeetCode

@@ -2,6 +2,7 @@
 # 122. Best Time to Buy and Sell Stock II：你不能同时参与多笔交易（你必须在再次购买前出售掉之前的股票）。
 # 123. Best Time to Buy and Sell Stock III：你不能同时参与多笔交易（你最多可以完成两笔交易）。
 # 188. Best Time to Buy and Sell Stock IV：你不能同时参与多笔交易（你最多可以完成k笔交易）。
+# 309. Best Time to Buy and Sell Stock with Cooldown：你不能同时参与多笔交易，卖出股票后，你无法在第二天买入股票 (即冷冻期为 1 天)。
 
 class Solution:
     # 121. 维持一个最小价格和最大利润，每次循环更新利润的最大值(max(当前价格-最小价格, 利润))和价格的最小值
@@ -66,7 +67,7 @@ class Solution:
 
         return profit
 
-    # 我们定义local[i][j]为在到达第i天时最多可进行j次交易并且最后一次交易在最后一天卖出的最大利润，此为局部最优。
+    # 188. 我们定义local[i][j]为在到达第i天时最多可进行j次交易并且最后一次交易在最后一天卖出的最大利润，此为局部最优。
     # 然后我们定义global[i][j]为在到达第i天时最多可进行j次交易的最大利润，此为全局最优。
     # local[i][j] = max(global[i - 1][j - 1] + max(diff, 0), local[i - 1][j] + diff)
     # global[i][j] = max(local[i][j], global[i - 1][j])
@@ -92,3 +93,33 @@ class Solution:
                 globa[j] = max(globa[j], local[j])
 
         return globa[k]
+
+# 309. Best Time to Buy and Sell Stock with Cooldown
+class Solution2:
+    def maxProfit(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        if not prices:
+            return 0
+        n = len(prices)
+        cool = [0] * n      # 第i项为冷冻期，前i项的最大利润
+        sell = [0] * n      # 第i项为销售期，前i项的最大利润
+        for i in range(1, n):
+            cool[i] = max(sell[i-1], cool[i-1])
+            # 如果当前项大于前一项，则sell[i]为前一项的sell+prices的差值
+            sell[i] = max(sell[i-1] + prices[i] - prices[i-1], cool[i-1])
+
+        return max(sell[n-1], cool[n-1])
+    # 上述方法便于理解，即冷冻期和非冷冻期分别维持一个数组，我们也可以把它压缩到常数空间
+    def maxProfitConsist(self, prices):
+        if not prices or len(prices) == 1:
+            return 0
+        cool = 0
+        sell = 0
+        for i in range(1, len(prices)):
+            prevCool = cool
+            cool = max(sell, prevCool)
+            sell = max(sell + prices[i] - prices[i-1], prevCool)
+        return max(sell, cool)
