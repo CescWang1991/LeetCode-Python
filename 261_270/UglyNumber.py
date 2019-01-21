@@ -47,7 +47,7 @@ class Solution2:
             num += 1
 
 class Solution3:
-    #
+    # 原理与# 313类似，用一个idx数组来保存当前的位置，由于三个数固定，可以用三个参数，而不用数组
     def nthUglyNumber(self, n):
         """
         :type n: int
