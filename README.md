@@ -287,6 +287,16 @@
 | 308 | Range Sum Query 2D - Mutable* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/301_310/RangeSumQuery.py) | Medium | Binary Indexed Tree/ Segment Tree
 | 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/121_130/BuyAndSellStock.py) | Medium | DP
 | 310 | [Minimum Height Trees](https://leetcode-cn.com/problems/minimum-height-trees/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/301_310/MinimumHeightTrees.py) | Medium | BFS/ Graph
+| 311 | Sparse Matrix Multiplication* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/311_320/SparseMatrixMultiplication.py) | Medium | Array
+| 312 | [Burst Balloons](https://leetcode-cn.com/problems/burst-balloons/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/311_320/BurstBalloons.py) | Hard | DP
+| 313 | [Super Ugly Number](https://leetcode-cn.com/problems/super-ugly-number/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/311_320/SuperUglyNumber.py) | Medium | Heap/ DP
+| 314 | Binary Tree Vertical Order Traversal* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/311_320/BinaryTreeVerticalOrderTraversal.py) | Medium | BFS
+| 315 | [Count of Smaller Numbers After Self](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/311_320/CountSmallerNumbers.py) | Hard | Binary Search
+| 316 | [Remove Duplicate Letters](https://leetcode-cn.com/problems/remove-duplicate-letters/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/311_320/RemoveDuplicateLetters.py) | Hard | Hash Table
+| 317 | Shortest Distance from All Buildings* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/311_320/ShortestDistanceAllBuildings.py) | Hard | BFS
+| 318 | [Maximum Product of Word Lengths](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/311_320/MaximumProductWordLengths.py) | Medium | Bit Manipulation
+| 319 | [Bulb Switcher](https://leetcode-cn.com/problems/bulb-switcher/) | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/311_320/BulbSwitcher.py) | Medium | Brainteaser
+| 320 | Generalized Abbreviation* | Scala | Java | [Python](https://github.com/CescWang1991/LeetCode-Python/blob/master/311_320/GeneralizedAbbreviation.py) | Medium | Bit Manipulation
 
 
 ## Solutions for problemsets in Database on LeetCode
