@@ -1,5 +1,5 @@
 # 148. Sort List
-# 归并排序(LeetCode超时)
+# 归并排序
 
 class ListNode:
     def __init__(self, x):
@@ -8,30 +8,19 @@ class ListNode:
 
 class Solution:
     def sortList(self, head):
-        """
-        :type head: ListNode
-        :rtype: ListNode
-        """
         if not head or not head.next:
             return head
-
-        mid = self.getMiddle(head)
-        left = head
-        right = mid.next
-        mid.next = None
-
-        return self.merge(self.sortList(left), self.sortList(right))
-    # 快慢指针找到中点
-    def getMiddle(self, head):
-        if not head or head.next:
-            return head
+        # 快慢指针，这里我们希望指向中点前一个点，所以fast初始为head.next
         slow = head
-        fast = head
-        while fast.next and fast.next.next:
+        fast = head.next
+        while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
+        fast = slow.next
+        slow.next = None
+        dummy = self.merge(self.sortList(head), self.sortList(fast))
 
-        return slow
+        return dummy
 
     def merge(self, left, right):
         head = ListNode(0)

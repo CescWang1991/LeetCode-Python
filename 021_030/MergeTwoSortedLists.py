@@ -14,14 +14,13 @@ class Solution:
         :rtype: ListNode
         """
         dummy = ListNode(None)
-        curr = ListNode(None)
-        dummy.next = curr
+        curr = dummy
         while l1 and l2:
             if l1.val <= l2.val:
-                curr.next = ListNode(l1.val)
+                curr.next = l1
                 l1 = l1.next
             else:
-                curr.next = ListNode(l2.val)
+                curr.next = l2
                 l2 = l2.next
             curr = curr.next
         if l1:
@@ -29,7 +28,7 @@ class Solution:
         if l2:
             curr.next = l2
 
-        return dummy.next.next
+        return dummy.next
 
     # 推排序，将每个链表的头节点假如队列，按堆排序方法排序，将最小值节点加入结果，然后最小值所在的链表指向下一个节点
     # 调整堆并继续迭代，直到数组为空。
