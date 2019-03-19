@@ -1,34 +1,19 @@
 class Solution:
-    def get(self, n, m, L):
-        if n > m:
-            L = L[:m]
-        while m > len(L):
-            v = L[0] / 2
-            del L[0]
-            if v < L[-1]:
-                L.append(v)
-                L.append(v)
+    def get(self, m, L):
+        L = list(map(float, sorted(L, reverse=True)))
+        lo = 0
+        hi = L[0]
+        while lo <= hi:
+            print(lo, hi)
+            mid = (lo + hi) / 2
+            if self.enough(mid, m, L):
+                lo = mid
             else:
-                for i in range(len(L)):
-                    if v >= L[i]:
-                        L.insert(i, v)
-                        L.insert(i, v)
-                        break
-        while m == len(L):
-            if L[0] / 2 > L[-1]:
-                v = L[0] / 2
-                del L[0]
-                del L[-1]
-                if v < L[-1]:
-                    L.append(v)
-                    L.append(v)
-                for i in range(len(L)):
-                    if v >= L[i]:
-                        L.insert(i, v)
-                        L.insert(i, v)
-                        break
-            else:
-                break
-        print("{:.2f}".format(L[-1]))
+                hi = mid - 0.01
+        return "{:.2f}".format(lo)
 
-Solution().get(3, 4, [16.0, 8.0, 3.0])
+    def enough(self, length, m, L):
+        count = 0
+        for i in range(len(L)):
+            count += int(L[i] // length)
+        return True if count >= m else False
