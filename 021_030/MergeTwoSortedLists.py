@@ -30,6 +30,24 @@ class Solution:
 
         return dummy.next
 
+
+class Solution1:
+    # 采用递归的方法
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+        if not l1:
+            return l2
+        if not l2:
+            return l1
+        if l1.val < l2.val:
+            head = l1
+            head.next = self.mergeTwoLists(l1.next, l2)
+        else:
+            head = l2
+            head.next = self.mergeTwoLists(l1, l2.next)
+        return head
+
+
+class Solution2:
     # 推排序，将每个链表的头节点假如队列，按堆排序方法排序，将最小值节点加入结果，然后最小值所在的链表指向下一个节点
     # 调整堆并继续迭代，直到数组为空。
     def mergeKLists(self, lists):
