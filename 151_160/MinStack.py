@@ -18,14 +18,19 @@ class MinStack:
         # 若push的值小于栈顶，则push x到最小值栈顶
         if not self.min or x <= self.min[-1]:
             self.min.append(x)
+        # 否则将栈中的最小值加入栈顶
+        else:
+            self.min.append(self.getMin())
 
     def pop(self):
         """
         :rtype: void
         """
-        x = self.stack.pop()
-        if x == self.min[-1]:
-            self.min.pop()
+        if not self.stack or self.min:
+            return None
+        # 将两个栈顶同时推出，维持两个栈元素个数相同
+        self.stack.pop()
+        self.min.pop()
 
     def top(self):
         """
@@ -37,4 +42,4 @@ class MinStack:
         """
         :rtype: int
         """
-        return self.min[-1] if self.min else None
+        return self.min[-1]
