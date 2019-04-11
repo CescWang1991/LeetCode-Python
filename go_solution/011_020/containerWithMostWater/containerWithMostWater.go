@@ -7,6 +7,7 @@ func maxArea(height []int) int {
 	rlt := 0
 	for i < j {
 		rlt = max(rlt, (j-i)*min(height[i], height[j]))
+		// 只移动较低的一边
 		if height[i] < height[j] {
 			i++
 		}else {

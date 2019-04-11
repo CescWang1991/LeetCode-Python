@@ -1,12 +1,14 @@
 package trappingRainWater
-
-func trap(height []int) int {
-	var l, r = 0, len(height) - 1
+//
+// 思路：
+func trapWithTwoPoints(height []int) int {
+	l, r := 0, len(height) - 1
 	water := 0
 	lMax, rMax := 0, 0
 	for l < r {
 		if height[l] < height[r] {
 			if height[l] < lMax {
+				// 高度差就是积攒的雨水
 				water += lMax - height[l]
 			} else {
 				lMax = height[l]
@@ -14,6 +16,7 @@ func trap(height []int) int {
 			l++
 		} else {
 			if height[r] < rMax {
+				// 高度差就是积攒的雨水
 				water += rMax - height[r]
 			} else {
 				rMax = height[r]
@@ -26,50 +29,24 @@ func trap(height []int) int {
 
 func trapWithStack(height []int) int {
 	stack := NewStack() // stack 里存放的是height的下标
-	water, i := 0, 0
-	for i < len(height) {
-		if stack.Len() == 0 || height[i] <= height[stack.Peek()] {
-			stack.Push(i)
-			i++
-		} else {
-			t := stack.Pop()
-			if stack.Len() == 0 {
-				continue
-			}
-			distance := i - stack.Peek() - 1
-			wall := min(height[i], height[stack.Peek()])
-			water += distance * (wall - height[t])
+	water, idx := 0, 0
+	for idx < len(height) {
+		// 如果 stack 里是空，或者还是下坡的情况 直接入栈
+		if stack.Len() == 0 || height[idx] <= height[stack.Peek()] {
+			stack.Push(idx)
+			idx++
+			continue
 		}
+		// 如果栈顶有元素，且不是下坡的情况
+		t := stack.Pop()
+		if stack.Len() == 0 {
+			continue
+		}
+		distance := idx - stack.Peek() - 1 // 计算宽
+		wall := min(height[idx], height[stack.Peek()])
+		water += distance * (wall - height[t])
 	}
 	return water
-}
-
-type Stack struct {
-	data []int
-}
-
-func NewStack() *Stack {
-	return &Stack{
-		data: make([]int, 0),
-	}
-}
-
-func (s *Stack) Push(val int) {
-	s.data = append(s.data, val)
-}
-
-func (s *Stack) Pop() int {
-	val := s.data[len(s.data)-1]
-	s.data = s.data[:len(s.data)-1]
-	return val
-}
-
-func (s *Stack) Peek() int {
-	return s.data[len(s.data)-1]
-}
-
-func (s *Stack) Len() int {
-	return len(s.data)
 }
 
 func min(a, b int) int {
