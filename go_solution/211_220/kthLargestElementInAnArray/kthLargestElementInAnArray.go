@@ -15,7 +15,7 @@ func findKthLargestWithMiniHeap(nums []int, k int) int {
 	}
 	return heap.Pop(h).(int)
 }
-
+// todo 思路：
 func findKthLargestWithSort(nums []int, k int) int {
 	expectedIdx := len(nums) - k
 	left, right, pivotIdx, pivotVal := divideByPivot(nums, 0)

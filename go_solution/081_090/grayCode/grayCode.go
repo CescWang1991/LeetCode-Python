@@ -6,7 +6,7 @@ func grayCode(n int) []int {
 	return grayCode_recursive(n)
 }
 
-// 思路：纯粹使用公式和位操作计算 G(n) = n XOR n/2
+// 思路：纯粹使用公式和位操作计算 第ng个格雷码为 G(n) = n XOR n/2
 func grayCode_math(n int) []int {
 	if n == 0 {
 		return []int{0}
