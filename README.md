@@ -3,7 +3,7 @@
 ## Solutions for problemsets in Algorithm on LeetCode
 
 | # | Title  | Java |  Python  | Golang | Difficulty | Category
-| :--- | --------- | :--------- | :--------- | :--------- | :--------- | :--------- | :---------
+| :--- | --------- | :--------- | :--------- | :--------- | :--------- | :---------
 | 1 | [Two Sum](https://leetcode-cn.com/problems/two-sum/description/)  | Java  | [Python](python_solution/001_010/TwoSum.py)  | Golang | Easy | Hash Table
 | 2 | [Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/description/)  | Java  | [Python](python_solution/001_010/AddTwoNumbers.py)  | Golang | Medium | Linked List
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/)  | Java | [Python](python_solution/001_010/LongestSubstring.py)  | Golang | Medium | Hash Table
