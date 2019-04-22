@@ -1,5 +1,5 @@
 import unittest
-from Simulation.ByteDance.PowCompare import *
+from simulation.ByteDance.PowCompare import *
 
 class MyTest(unittest.TestCase):
 
