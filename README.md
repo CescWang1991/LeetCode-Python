@@ -7,12 +7,12 @@
 | 1 | [Two Sum](https://leetcode-cn.com/problems/two-sum/description/)  | Java  | [Python](python_solution/001_010/TwoSum.py)  | Golang | Easy | Hash Table
 | 2 | [Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/description/)  | Java  | [Python](python_solution/001_010/AddTwoNumbers.py)  | Golang | Medium | Linked List
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/)  | Java | [Python](python_solution/001_010/LongestSubstring.py)  | Golang | Medium | Hash Table
-| 4 | [Median of Two Sorted Arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/description/)  | Java  | [Python](python_solution/001_010/MedianTwoArrays.py) | Golang | Hard | Binary Search
+| 4 | [Median of Two Sorted Arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/description/)  | [Java](java_solution/problem001_010/FindMedianSortedArrays.java)  | [Python](python_solution/001_010/MedianTwoArrays.py) | Golang | Hard | Binary Search
 | 5 | [Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/)  | Java | [Python](python_solution/001_010/LongestPalindromicSubstring.py) | Golang | Medium | DP
 | 6 | [ZigZag Conversion](https://leetcode-cn.com/problems/zigzag-conversion/description/)  | Java  | [Python](python_solution/001_010/ZigZagConversion.py) | Golang | Medium | String
 | 7 | [Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/description/)  | Java  | [Python](python_solution/001_010/ReverseInteger.py) | Golang | Easy | Math
 | 9 | [Palindrome Number](https://leetcode-cn.com/problems/palindrome-number/description/)  | Java | [Python](python_solution/001_010/PalindromeNumber.py) | Golang | Easy | Math
-| 10 | [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/description/)  | Java | [Python](python_solution/001_010/RegularExpressionMatch.py) | Golang | Hard | DP/ Backtracking
+| 10 | [Regular Expression Matching](https://leetcode-cn.com/problems/regular-expression-matching/description/)  | [Java](java_solution/problem001_010/RegularExpressionMatching.java) | [Python](python_solution/001_010/RegularExpressionMatch.py) | Golang | Hard | DP/ Backtracking
 | 11 | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/description/)  | [Java](java_solution/problem011_020/ContainerWithMostWater.java) | [Python](python_solution/011_020/ContainerWithMostWater.py) | Golang | Medium | Two Pointers
 | 14 | [Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/description/)  | Java | [Python](python_solution/011_020/LongestCommonPrefix.py) | Golang | Easy | String
 | 15 | [Three Sum](https://leetcode-cn.com/problems/3sum/description/)  | [Java](java_solution/problem011_020/ThreeSum.java) | [Python](python_solution/011_020/ThreeSum.py) | Golang | Medium | Two Pointers
@@ -81,7 +81,7 @@
 | 81 | [Search in Rotated Sorted Array II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)  | Java | [Python](python_solution/081_090/SearchRotatedSortedArray.py) | Golang | Medium | Binary Search
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)  | Java | [Python](python_solution/081_090/DeleteDuplicates.py) | Golang | Medium | Linked List
 | 83 | [Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  | Java | [Python](python_solution/081_090/DeleteDuplicates.py) | Golang | Easy | Linked List
-| 84 | [Largest Rectangle Area](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)  | Java | [Python](python_solution/081_090/LargestRectangleArea.py) | Golang | Hard | Stack
+| 84 | [Largest Rectangle Area](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)  | Java | [Python](python_solution/081_090/MaxRectangle.py) | Golang | Hard | Stack
 | 85 | [Maximum Rectangle](https://leetcode-cn.com/problems/maximal-rectangle/)  | Java | [Python](python_solution/081_090/MaxRectangle.py) | Golang | Hard | DP
 | 86 | [Partition List](https://leetcode-cn.com/problems/partition-list/)  | Java | [Python](python_solution/081_090/PartitionList.py) | Golang | Medium | Linked List
 | 87 | [Scramble String](https://leetcode-cn.com/problems/scramble-string/)  | Java | [Python](python_solution/081_090/ScrambleString.py) | Golang | Hard | DP
